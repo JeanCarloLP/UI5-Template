@@ -1,0 +1,11 @@
+{
+  "name": "000-ui5-template",
+  "version": "1.0.0",
+  "description": "Before we start with our development or download and installation of the project, we must take into account the following requirements for the use of our tools.   There are some mandatory installations and some other that are simple recomendations but here you have a few tools that can help on the process.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
