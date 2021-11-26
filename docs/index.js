@@ -1,0 +1,1 @@
+sap.ui.define([],function(){"use strict";const e={firstName:"Jean-Carlo",city:"Brussels"};const s=["padel","warhammer40k","comics"];let a={...e,lastName:"León",hobbies:s};console.table(a);const t=(e="No name")=>{alert(`${e} says HI!!!`)};t()});
