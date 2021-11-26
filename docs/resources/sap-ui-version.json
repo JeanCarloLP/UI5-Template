@@ -1,37 +1,37 @@
 {
 	"name": "000-ui5-template",
 	"version": "1.0.0",
-	"buildTimestamp": "202111261044",
+	"buildTimestamp": "202111261526",
 	"scmRevision": "",
 	"libraries": [
 		{
 			"name": "sap.m",
 			"version": "1.96.2",
-			"buildTimestamp": "202111261044",
+			"buildTimestamp": "202111261526",
 			"scmRevision": ""
 		},
 		{
 			"name": "sap.ui.core",
 			"version": "1.96.2",
-			"buildTimestamp": "202111261044",
+			"buildTimestamp": "202111261526",
 			"scmRevision": ""
 		},
 		{
 			"name": "sap.ui.layout",
 			"version": "1.96.2",
-			"buildTimestamp": "202111261044",
+			"buildTimestamp": "202111261526",
 			"scmRevision": ""
 		},
 		{
 			"name": "sap.ui.table",
 			"version": "1.96.2",
-			"buildTimestamp": "202111261044",
+			"buildTimestamp": "202111261526",
 			"scmRevision": ""
 		},
 		{
 			"name": "sap.ui.unified",
 			"version": "1.96.2",
-			"buildTimestamp": "202111261044",
+			"buildTimestamp": "202111261526",
 			"scmRevision": ""
 		}
 	]
