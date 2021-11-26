@@ -3,7 +3,7 @@
 <br/>
 
 <p align="center">
-<img src="git-images/ES6.png" width="210"> <img src="git-images/node-npm.jpeg" width="250">  
+<img src="git-images/ES6.png" width="210"> <img src="git-images/UI5_logo_wide.png" width="200"> <img src="git-images/node-npm.jpeg" width="250">
 </p> 
 
 # Basic installations and settings
@@ -75,39 +75,6 @@ git commit -m "[descriptive message]"
 git push
 ```
 
-### *NPM*
-Throughout the development that you must implement, you will possibly use npm on numerous occasions, but when it comes to making a more stable configuration for your UI5 project, the following installation is recommended to be testable in any browser using npm and babel ( https://www.npmjs.com/package/ui5-task-transpile )
-
-After following the steps described on the npm link, we create a simple example for ES6 code to see the differences after build ( see filles: index.js )
-```
-# index.js
-// START simple test for ES6
-	const myInfo = {
-		firstName: "Jean-Carlo",
-		city: "Brussels" 
-	};
-
-	const hobbies = ['padel', 'warhammer40k', 'comics'];
-	let modifiedInfo = { ...myInfo, lastName: 'León', hobbies};
-	console.table(modifiedInfo);
-
-	const sayHi = ( name = 'No name') => {
-		alert ( `${ name } says HI!!!` );
-	}
-
-	sayHi();
-
-// END simple test for ES6
-```
-
-```
-# index.js minimized
-[...] var t=_objectSpread(_objectSpread({},e),{},{lastName:"León",hobbies:r});var n=function e(){var r [...]
-
-// where we can see the convertion of the spread, arrow functions, const and lets, etc
-```
-
-
 <br/>
 <br/>
 
@@ -120,10 +87,6 @@ HTML Snippets ( https://marketplace.visualstudio.com/items?itemName=abusaidm.htm
 
 <br/>
 <br/>
-
-<p align="center">
-<img src="git-images/UI5_logo_wide.png" width="200">  
-</p>  
 
 # UI5 Tooling  
 It is highly recommended to take a look at the UI documentation ( https://sap.github.io/ui5-tooling/ - https://github.com/SAP/ui5-tooling ), here we are going to proceed only with some basic and necessary steps to proceed with the template.  
@@ -173,3 +136,35 @@ ui5 serve
 <br/>
 <br/>
 
+
+### *NPM ui5-task-transpile*
+Throughout the development that you must implement, you will possibly use npm on numerous occasions, but when it comes to make a more stable configuration for your UI5 project, the following installation is recommended to be testable in any browser using npm and babel ( https://www.npmjs.com/package/ui5-task-transpile )
+
+After following the steps described on the npm link, we create a simple example for ES6 code to see the differences after build ( see filles: index.js )
+```
+# index.js
+// START simple test for ES6
+	const myInfo = {
+		firstName: "Jean-Carlo",
+		city: "Brussels" 
+	};
+
+	const hobbies = ['padel', 'warhammer40k', 'comics'];
+	let modifiedInfo = { ...myInfo, lastName: 'León', hobbies};
+	console.table(modifiedInfo);
+
+	const sayHi = ( name = 'No name') => {
+		alert ( `${ name } says HI!!!` );
+	}
+
+	sayHi();
+
+// END simple test for ES6
+```
+
+```
+# index.js minimized
+[...] var t=_objectSpread(_objectSpread({},e),{},{lastName:"León",hobbies:r});var n=function e(){var r [...]
+
+// where we can see the convertion of the spread, arrow functions, const and lets, etc
+```
