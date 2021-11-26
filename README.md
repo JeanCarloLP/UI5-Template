@@ -1,4 +1,11 @@
 
+<br/>
+<br/>
+
+<p align="center">
+<img src="git-images/ES6.png" width="210"> <img src="git-images/node-npm.jpeg" width="250">  
+</p> 
+
 # Basic installations and settings
 Before we start with our development or download and installation of the project, we must take into account the following requirements for the use of our tools.  
 There are some mandatory installations and some other that are simple recomendations but here you have a few tools that can help on the process.  
@@ -20,7 +27,7 @@ For our developments we will work with the latest versions of Google Chrome due 
 In case you prefer to use another browser such as edge or firefox, you can proceed without any problem.
 <br/>
 
-### *Git Repository*
+### *Git*
 The tools to use here could be different in function of your actual service or preferences.  
 The two best known and free options to manipulate your repository are GitHub and GitLab.  
 And Remember Git is not the same thing to GITHUB, **Git is an open source for versioning control and GitHub is a platform for hosting git repositories**.  
@@ -30,7 +37,7 @@ Git Documentation ( https://git-scm.com/doc ).
 
 <p align="center">
 <img src="git-images/gitFlow.png" width="750">  
-</p>  
+</p>
 
 
 to check the git installation, the command is similar to the previous command for Node on the console.
@@ -66,6 +73,38 @@ git add .
 git commit -m "[descriptive message]"
 
 git push
+```
+
+### *NPM*
+Throughout the development that you must implement, you will possibly use npm on numerous occasions, but when it comes to making a more stable configuration for your UI5 project, the following installation is recommended to be testable in any browser using npm and babel ( https://www.npmjs.com/package/ui5-task-transpile )
+
+After following the steps described on the npm link, we create a simple example for ES6 code to see the differences after build ( see filles: index.js )
+```
+# index.js
+// START simple test for ES6
+	const myInfo = {
+		firstName: "Jean-Carlo",
+		city: "Brussels" 
+	};
+
+	const hobbies = ['padel', 'warhammer40k', 'comics'];
+	let modifiedInfo = { ...myInfo, lastName: 'León', hobbies};
+	console.table(modifiedInfo);
+
+	const sayHi = ( name = 'No name') => {
+		alert ( `${ name } says HI!!!` );
+	}
+
+	sayHi();
+
+// END simple test for ES6
+```
+
+```
+# index.js minimized
+[...] var t=_objectSpread(_objectSpread({},e),{},{lastName:"León",hobbies:r});var n=function e(){var r [...]
+
+// where we can see the convertion of the spread, arrow functions, const and lets, etc
 ```
 
 
@@ -130,3 +169,7 @@ ui5 add sap.ui.core sap.m sap.ui.table themelib_sap_fiori_3
 # Start the server and work on your project! 
 ui5 serve
 ```
+
+<br/>
+<br/>
+

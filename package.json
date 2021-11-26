@@ -7,5 +7,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "ui5-task-transpile": "^0.3.4"
+  },
+  "ui5": {
+    "dependencies": [
+      "ui5-task-transpile"
+    ]
+  }
 }
