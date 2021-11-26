@@ -90,10 +90,6 @@ HTML Snippets ( https://marketplace.visualstudio.com/items?itemName=abusaidm.htm
 It is highly recommended to take a look at the UI documentation ( https://sap.github.io/ui5-tooling/ - https://github.com/SAP/ui5-tooling ), here we are going to proceed only with some basic and necessary steps to proceed with the template.  
 UI5 Tooling: is the open-source, modular, configurable and extensible command line interface (CLI) for efficient development of applications, libraries and reuse of components with the UI5 framework.  
 
-<p align="center">
-<img src="git-images/ui5tooling_exp.png" width="750">  
-</p>  
-
 Installation:
 ```
 # Global installation to have the command available
