@@ -2,11 +2,7 @@
 # build artefacts
 build
 dist/
-docs/resources/sap/f
-docs/resources/sap/m
-docs/resources/sap/tnt
-docs/resources/sap/ui
-docs/resources/sap/uxap
+docs/
 
 # eslint
 eslint.log
