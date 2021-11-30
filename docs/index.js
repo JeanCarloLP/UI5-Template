@@ -1,1 +1,0 @@
-"use strict";sap.ui.define(["sap/ui/demo/template/myES6Module"],function(e){"use strict";e.then(function(){sap.ui.require(["sap/ui/core/ComponentSupport"])})});
