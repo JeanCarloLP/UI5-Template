@@ -1,3 +1,27 @@
 
-node_modules/
+# build artefacts
+build
 dist/
+
+# eslint
+eslint.log
+eslint.tap
+
+# Mac 
+.DS_Store
+
+# Maven
+target/
+
+# Node
+node_modules/
+npm-debug.log
+
+# Visual Studio Code
+.vscode
+.vscode/tasks.json
+.vs
+
+# others
+log
+bin

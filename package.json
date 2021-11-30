@@ -1,19 +1,31 @@
 {
-  "name": "000-ui5-template",
-  "version": "1.0.0",
-  "description": "Before we start with our development or download and installation of the project, we must take into account the following requirements for the use of our tools.   There are some mandatory installations and some other that are simple recomendations but here you have a few tools that can help on the process.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
+  "author": "TheChan",
+  "description": "Before we start with our development or download and installation of the project, remember this template can help as a point to start!.",
   "devDependencies": {
+    "eslint": "^8.3.0",
     "ui5-task-transpile": "^0.3.4"
+  },
+  "keywords": [
+    "UI5"
+  ],
+  "license": "ISC",
+  "name": "000-ui5-template",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "build": "rimraf dist && ui5 build -a",
+    "deploy": "rimraf dist && ui5 build",
+    "dev": "ui5 serve --port 8080 --open /index.html",
+    "start": "ui5 serve --port 8080 --open /index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "ui5": {
     "dependencies": [
       "ui5-task-transpile"
     ]
-  }
+  },
+  "version": "1.0.0"
 }
