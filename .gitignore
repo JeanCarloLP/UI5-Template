@@ -2,6 +2,7 @@
 # build artefacts
 build
 dist/
+docs/
 
 # eslint
 eslint.log
