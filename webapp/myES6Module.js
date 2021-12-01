@@ -12,11 +12,11 @@ sap.ui.define([
 	};
 
 	const hobbies = ['padel', 'warhammer40k', 'comics'];
-	let modifiedInfo = { ...myInfo, lastName: 'León', hobbies};
-	console.table(modifiedInfo);
+	let modifiedInfo = {...myInfo, lastName: 'León', hobbies};
+	console.table( modifiedInfo );
 
 	const sayHi = ( name ) => {
-        if( myInfo.firstName) 
+        if( myInfo.firstName )
             name = myInfo.firstName;
         else
             name = 'No name';
@@ -24,11 +24,11 @@ sap.ui.define([
 		alert ( `${ name } says HI!!!` );
 	}
 
-	return new Promise( (resolve, reject) => {
-        if(myInfo.firstName === 'Jean'){
+	return new Promise( ( resolve, reject ) => {
+        if( myInfo.firstName === 'Jean' ) {
             resolve( sayHi() );
         } else {
-            reject(`The required info doesn't exist`);
+            reject( `The required info doesn't exist` );
         }
     });
 
