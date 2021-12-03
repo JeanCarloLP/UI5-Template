@@ -1,7 +1,7 @@
 {
     "_version": "1.12.0",
     "sap.app": {
-      "id": "sap.ui.demo.walkthrough",
+      "id": "sap.ui.demo.template",
       "type": "application",
       "i18n": "i18n/i18n.properties",
       "title": "{{appTitle}}",
@@ -19,30 +19,26 @@
       }
     },
     "sap.ui5": {
-      "rootView": {
-          "viewName": "sap.ui.demo.walkthrough.view.app",
-          "type": "XML",
-          "async": true,
-          "id": "app"
+      "contentDensities": {
+        "compact": true,
+        "cozy": true
       },
       "dependencies": {
         "minUI5Version": "1.60",
         "libs": {
-          "sap.m": {}
+          "sap.m": {},
+          "sap.ui.core": {},
+          "sap.ui.layout": {}
         }
       },
       "models": {
         "i18n": {
           "type": "sap.ui.model.resource.ResourceModel",
           "settings": {
-            "bundleName": "sap.ui.demo.walkthrough.i18n.i18n",
+            "bundleName": "sap.ui.demo.template.i18n.i18n",
             "supportedLocales": [""],
             "fallbackLocale": ""
           }
-        },
-        "invoice": {
-          "type": "sap.ui.model.json.JSONModel",
-		      "uri": "assets/Invoices.json"
         }
       },
       "resources": {
@@ -51,6 +47,37 @@
             "uri": "css/style.css"
           }
         ]
+      },
+      "rootView": {
+          "viewName": "sap.ui.demo.template.view.app",
+          "type": "XML",
+          "async": true,
+          "id": "app"
+      },
+      "routing": {
+        "config": {
+          "routerClass": "sap.m.routing.Router",
+          "viewType": "XML",
+          "viewPath": "sap.ui.demo.template.view",
+          "controlId": "app",
+          "controlAggregation": "pages",
+          "async": true
+        },
+        "routes": [
+          {
+            "pattern": "",
+            "name": "main",
+            "target": ["main"]
+          }
+        ],
+        "targets": {
+          "main": {
+            "viewName": "main",
+            "viewId": "main",
+            "viewLevel": 1,
+            "title": "{i18n>title}"
+          }
+        }
       }
     }
 }

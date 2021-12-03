@@ -173,4 +173,79 @@ After following the steps described on the npm link, we create a simple example 
 [...] var t=_objectSpread(_objectSpread({},e),{},{lastName:"León",hobbies:r});var n=function e(){var r [...]
 
 // where we can see the convertion of the spread, arrow functions, const and lets, etc
+```  
+<br/>
+<br/>
+
+# UI5 FLP SandBox  
+We can proceed in two ways here, we can use the following lines to access through hana ( OpenUI5 cases to avoid 'complicated' config )
+```
+  <script id="sap-ui-bootstrap" src="https://sapui5.hana.ondemand.com/test-resources/sap/ushell/bootstrap/sandbox.js"></script>
+  
+  <script
+      id="sap-ui-bootstrap"
+      src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"
+      data-sap-ui-theme="sap_fiori_3"
+      data-sap-ui-compatVersion="edge"
+      data-sap-ui-async="true"
+      data-sap-ui-frameOptions="allow"
+      data-sap-ui-preload="async">
+  </script>
+
+  // Tip1: Remember this part of the configuration will be related to the required version of the Framework used
+  // it could be OpenSAP or SAPUI5
+
+  // Tip2: in case of need you can specify your SDK version on the url too
+  // src="https://sapui5.hana.ondemand.com/1.92.2/test-resources/sap/ushell/bootstrap/sandbox.js
+  // src="https://sapui5.hana.ondemand.com/1.92.2/resources/sap-ui-core.js"
+```
+Or we can set our configuration based on a specific SDK for our SAPUI5 version as follows:  
+
+### *Proxy to access SAPUI5 resources.*
+To access the SAPUI5 resources in the UI5 application we can simply use the simple proxy middleware from the UI5 Ecosystem Showcase.  
+https://blogs.sap.com/2020/04/07/ui5-tooling-a-modern-development-experience-for-ui5/  
+```
+npm install ui5-middleware-simpleproxy --save-dev
+```
+
+we need to add the ui5-middleware-simpleproxy as ui5/dependencies in the package.json:  
+```
+{
+  […]
+  "ui5": {
+    "dependencies": [
+      "ui5-middleware-simpleproxy"
+    ]
+  },
+  […]
+}
+```
+Afterwards we need to open the ui5.yaml and add the following configuration:  
+```
+server:
+  customMiddleware:
+    - name: ui5-middleware-simpleproxy
+      mountPath: /resources/
+      afterMiddleware: compression
+      configuration:
+        baseUri: https://sapui5.hana.ondemand.com/resources/
+```
+This configuration will ensure that all requests to /resources/ will be proxied to https://sapui5.hana.ondemand.com/resources/.  
+### *Livereload middleware.*
+The livereload middleware is watching to changes of the sources in the file system. Once a source file has been modified the livereload middleware reloads the browser. Add the livereload middleware with the following command:  
+```
+npm install ui5-middleware-livereload --save-dev
+```
+Afterwards in the package.json ensure to list the ui5-middleware-livereload in the ui5/dependencies (just add the last entry):  
+```
+{
+  […]
+  "ui5": {
+    "dependencies": [
+      "ui5-middleware-simpleproxy",
+      "ui5-middleware-livereload"
+    ]
+  },
+  […]
+}
 ```

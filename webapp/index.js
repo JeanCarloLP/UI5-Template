@@ -1,26 +1,16 @@
+
+//sap/ui/demo/template/index.js
 sap.ui.define([
-
-], function () {
+	"sap/ui/demo/template/myES6Module"
+], function( myES6Module ) {
 	"use strict";
-	// This file is just to help you to check the ES6 is working on previous versions of your browser
-	// so remember to check the changes of let, const, ... , etc on the compiled files  
 
-	// START simple test for ES6
-	const myInfo = {
-		firstName: "Jean-Carlo",
-		city: "Brussels" 
-	};
-
-	const hobbies = ['padel', 'warhammer40k', 'comics'];
-	let modifiedInfo = { ...myInfo, lastName: 'León', hobbies};
-	console.table(modifiedInfo);
-
-	const sayHi = ( name = 'TheChan') => {
-		alert ( `${ name } says HI !!` );
-	}
-
-	sayHi();
-
-	// END simple test for ES6
+	// Execute code which needs to be executed before component initialization
+	myES6Module.then(function() {
+		// Requiring the ComponentSupport module automatically executes the component initialisation for all declaratively defined components
+		// With the declarative sap/ui/core/ComponentSupport API it is possible to define the initially started component directly in the HTML markup
+		// instead of the imperative way using JavaScript.
+		sap.ui.require(["sap/ui/core/ComponentSupport"]);
+	})
 
 });

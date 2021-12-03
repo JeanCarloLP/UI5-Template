@@ -2,6 +2,8 @@
 # build artefacts
 build
 dist/
+docs/
+sdk/
 
 # eslint
 eslint.log
@@ -25,3 +27,4 @@ npm-debug.log
 # others
 log
 bin
+.env
