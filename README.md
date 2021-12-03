@@ -6,8 +6,19 @@
 <img src="git-images/ES6.png" width="210"> <img src="git-images/UI5_logo_wide.png" width="200"> <img src="git-images/node-npm.jpeg" width="250">
 </p> 
 
+<br/>
+<br/>
+
+Before to start a simple branches scheme:  
+main         -> simple app with basic flp and structure  
+dev          -> project updated with the last updates working  
+feature-task -> last feature to be implementated  
+
+<br/>
+<br/>
+
 # Basic installations and settings
-Before we start with our development or download and installation of the project, we must take into account the following requirements for the use of our tools.  
+We start with our development or download and installation of the project, we must take into account the following requirements for the use of our tools.  
 There are some mandatory installations and some other that are simple recomendations but here you have a few tools that can help on the process.  
 
 ### *VSCode*
