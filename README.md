@@ -3,7 +3,7 @@
 <br/>
 
 <p align="center">
-<img src="git-images/es6.png" width="210"> <img src="git-images/ui5_logo_wide.png" width="200">  <img src="git-images/node-npm.jpeg" width="250">
+<img src="git-images/ES6.png" width="210"> <img src="git-images/UI5_logo_wide.png" width="200"> <img src="git-images/node-npm.jpeg" width="250">
 </p> 
 
 # Basic installations and settings
