@@ -19,11 +19,9 @@
       }
     },
     "sap.ui5": {
-      "rootView": {
-          "viewName": "sap.ui.demo.template.view.app",
-          "type": "XML",
-          "async": true,
-          "id": "app"
+      "contentDensities": {
+        "compact": true,
+        "cozy": true
       },
       "dependencies": {
         "minUI5Version": "1.60",
@@ -41,10 +39,6 @@
             "supportedLocales": [""],
             "fallbackLocale": ""
           }
-        },
-        "invoice": {
-          "type": "sap.ui.model.json.JSONModel",
-		      "uri": "assets/Invoices.json"
         }
       },
       "resources": {
@@ -53,6 +47,37 @@
             "uri": "css/style.css"
           }
         ]
+      },
+      "rootView": {
+          "viewName": "sap.ui.demo.template.view.app",
+          "type": "XML",
+          "async": true,
+          "id": "app"
+      },
+      "routing": {
+        "config": {
+          "routerClass": "sap.m.routing.Router",
+          "viewType": "XML",
+          "viewPath": "sap.ui.demo.template.view",
+          "controlId": "app",
+          "controlAggregation": "pages",
+          "async": true
+        },
+        "routes": [
+          {
+            "pattern": "",
+            "name": "main",
+            "target": ["main"]
+          }
+        ],
+        "targets": {
+          "main": {
+            "viewName": "main",
+            "viewId": "main",
+            "viewLevel": 1,
+            "title": "{i18n>title}"
+          }
+        }
       }
     }
 }

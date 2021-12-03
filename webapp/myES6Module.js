@@ -1,14 +1,16 @@
+
+
 sap.ui.define([
 
-], function () {
+], function() {
 	"use strict";
     // This file is just to help you to check the ES6 is working on previous versions of your browser
 	// so remember to check the changes of let, const, ... , etc on the compiled files 
 
 	// START simple test for ES6
 	const myInfo = {
-		firstName: "Jean",
-		city: "Brussels" 
+		firstName: "Chan",
+		city: "Hawai" 
 	};
 
 	const hobbies = ['padel', 'warhammer40k', 'comics'];
@@ -19,13 +21,13 @@ sap.ui.define([
         if( myInfo.firstName )
             name = myInfo.firstName;
         else
-            name = 'No name';
+            name = 'John Doe';
 
 		alert ( `${ name } says HI!!!` );
 	}
 
 	return new Promise( ( resolve, reject ) => {
-        if( myInfo.firstName === 'Jean' ) {
+        if( myInfo.firstName === 'Chan' ) {
             resolve( sayHi() );
         } else {
             reject( `The required info doesn't exist` );

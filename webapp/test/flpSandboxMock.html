@@ -1,53 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>UI5 FLP Sandbox</title>
+<html>
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Fiori Launchpad Sandbox</title>
 
-    <script>
-      window["sap-ushell-config"] = {
-        defaultRenderer: "fiori2",
-        renderers: {
-          fiori2: {
-            componentData: {
-              config: {
-                search: "hidden",
-              },
-            },
-          },
-        },
-        applications: {
-          "MyApplication-display": {
-            additionalInformation: "SAPUI5",
-            applicationType: "URL",
-            url: "../",
-            title: "My App Template",
-          },
-        },
-      };
-    </script>
+        <script>
+            window["sap-ushell-config"] = {
+                defaultRenderer: "fiori2",
+                renderers: {
+                    fiori2: {
+                        componentData: {
+                            config: {}
+                        }
+                    }
+                },
+                applications: {
+                    "SAPUI5-Template": {
+                        additionalInformation: "SAPUI5.Component=sap.ui.demo.template",
+                        description: "FLP Sandbox to check your template",
+                        icon: "sap-icon://add",
+                        navigationMode: "embedded",
+                        title: "UI5 Template",
 
-    <!-- Bootstrap the UI5 core library -->
-    <script
-      id="sap-ui-bootstrap"
-      src=""
-      data-sap-ui-libs="sap.ushell, sap.collaboration, sap.m, sap.ui.layout"
-      data-sap-ui-theme="sap_belize"
-      data-sap-ui-preload="async"
-      data-sap-ui-compatVersion="edge"
-      data-sapui-frameOptions="allow"
-    ></script>
+                        applicationType: "URL",
+                        url: "../",
+                    }
+                }
+            };
+        </script>
 
-    <script>
-      sap.ui.getCore().attachInit(function () {
-        // initialize the ushell sandbox component
-        sap.ushell.Container.createRenderer().placeAt("content");
-      });
-    </script>
-  </head>
+        <!-- Test-resources ( check the version specified 1.92.2 in my case ) -->
+        <script id="sap-ui-bootstrap" src="https://sapui5.hana.ondemand.com/1.92.2/test-resources/sap/ushell/bootstrap/sandbox.js"></script>
+        
+        <!-- Bootstrap the UI5 core library ( check the version specified 1.92.2 in my case ) -->
+        <script
+            id="sap-ui-bootstrap"
+            src="https://sapui5.hana.ondemand.com/1.92.2/resources/sap-ui-core.js"
+            data-sap-ui-libs="sap.m"
+            data-sap-ui-theme="sap_fiori_3"
+            data-sap-ui-compatVersion="edge"
+            data-sap-ui-async="true"
+            data-sap-ui-frameOptions="allow"
+            data-sap-ui-xx-bindingsyntax="complex"
+            data-sap-ui-preload="async">
+        </script>
 
-  <!-- UI Content -->
-  <body class="sapUiBody" id="content"></body>
+        <!-- In case of use .env files to use the middlewares for a specifique version of SDK -->
+        <!-- <script id="sap-ui-bootstrap" src="/test-resources/sap/ushell/bootstrap/sandbox.js"></script> -->
+        <!-- <script
+            id="sap-ui-bootstrap"
+            src="/resources/sap-ui-core.js"
+            data-sap-ui-theme="sap_fiori_3"
+            data-sap-ui-compatVersion="edge"
+            data-sap-ui-async="true"
+            data-sap-ui-frameOptions="allow"
+            data-sap-ui-preload="async">
+        </script> -->
+
+        <script>
+            sap.ui.getCore().attachInit(() => sap.ushell.Container.createRenderer().placeAt("content"));
+        </script>
+    </head>
+
+    <body class="sapUiBody" id="content"></body>
 </html>
