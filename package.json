@@ -3,6 +3,8 @@
   "description": "Before we start with our development or download and installation of the project, remember this template can help as a point to start!.",
   "devDependencies": {
     "eslint": "^8.3.0",
+    "ui5-middleware-livereload": "^0.5.8",
+    "ui5-middleware-simpleproxy": "^0.7.5",
     "ui5-task-transpile": "^0.3.4"
   },
   "keywords": [
@@ -19,11 +21,14 @@
     "build": "rimraf dist && ui5 build -a",
     "deploy": "rimraf dist && ui5 build",
     "dev": "ui5 serve --port 8080 --open /index.html",
+    "mockdev": "ui5 serve --port 8080 --open /test/flpSandboxMock.html",
+    "mockserv": "ui5 serve --port 8080 --open /test/flpSandboxMockServer.html",
     "start": "ui5 serve --port 8080 --open /index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "ui5": {
     "dependencies": [
+      "ui5-middleware-livereload",
       "ui5-task-transpile"
     ]
   },

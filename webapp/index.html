@@ -2,21 +2,32 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>SAPUI5 Walkthrough</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>SAPUI5 Template</title>
     <script
       id="sap-ui-bootstrap"
-      src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"
-      data-sap-ui-theme="sap_belize"
+      src="/resources/sap-ui-core.js"
+      data-sap-ui-theme="sap_fiori_3"
       data-sap-ui-libs="sap.m"
       data-sap-ui-compatVersion="edge"
       data-sap-ui-async="true"
-      data-sap-ui-onInit="module:sap/ui/demo/walkthrough/index"
+      data-sap-ui-frameOptions="trusted"
+      data-sap-ui-onInit="module:sap/ui/demo/template/index"   
       data-sap-ui-resourceroots='{
-			"sap.ui.demo.walkthrough": "./"
-		}'
-    ></script>
+        "sap.ui.demo.template": "./"
+      }'>
+      // Execute custom module on init
+    </script>
   </head>
-  <body>
-    <div>Hello World</div>
+  <body class="sapUiBody">
+    <div
+      data-sap-ui-component
+      data-name="sap.ui.demo.template"
+      data-id="container"
+      data-settings='{
+        "id": "appContainer"
+      }'>
+    </div>
   </body>
 </html>

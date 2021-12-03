@@ -14,11 +14,43 @@ builder:
       - "lib/"
       - "another/dir/in/webapp"
       - "yet/another/dir"
+  resources:
+    excludes:
+      - "/test/**"
+      - "/localService/**"
+      - "/test-resources/"
 framework:
   name: SAPUI5
   version: "1.92.2"
   libraries:
+    - name: sap.f
     - name: sap.m
     - name: sap.ui.core
     - name: sap.ui.table
+    - name: sap.ushell
+      development: true
     - name: themelib_sap_fiori_3
+server:
+  customMiddleware:
+    # In case you use .env files to access your SDK version
+    # - name: ui5-middleware-simpleproxy
+    #   mountPath: /resources
+    #   afterMiddleware: compression
+    #   configuration:
+    #     baseUri: https://sapui5.hana.ondemand.com/resources/
+    # - name: ui5-middleware-simpleproxy
+    #   mountPath: /resources
+    #   afterMiddleware: compression
+    #   configuration:
+    #     roothPath: ${env.SAPUI5_SDK_RESOURCES}
+    # - name: ui5-middleware-servestatic
+    #   mountPath: /test-resources
+    #   afterMiddleware: compression
+    #   configuration:
+    #     roothPath: ${env.SAPUI5_SDK_TEST_RESOURCES}
+    # Remember to set the dependencies on the package.json
+    - name: ui5-middleware-livereload
+      afterMiddleware: compression
+      configuration:
+        extraExts: "xml,json,properties"
+        path: "webapp"
