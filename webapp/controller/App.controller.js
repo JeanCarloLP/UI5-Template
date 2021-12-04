@@ -1,12 +1,12 @@
 
 
 sap.ui.define([
-    'sap/ui/demo/template/controller/baseController'
-], function( baseController ) {
+    'sap/ui/demo/template/controller/BaseController'
+], function( BaseController ) {
     'use strict';
     
-    const AppController = baseController.extend(
-        'sap.ui.demo.template.controller.app', {
+    const AppController = BaseController.extend(
+        'sap.ui.demo.template.controller.App', {
             constructor: function() {}
         }
     );
