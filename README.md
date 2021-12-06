@@ -9,15 +9,49 @@
 <br/>
 <br/>
 
+# Quick start and branches
 Before to start a simple branches scheme:  
-main         -> simple app with basic flp and structure  
-dev          -> project updated with the last updates working  
-feature-task -> last feature to be implementated  
+main         -> simple app with basic flp and structure (Hello World example!)  
+dev          -> project updated with the latest updates working (App working using Northwind OData service)  
+feature-task -> last feature implementated  
+
+In case you know what you are doing and want to proceed, just perform the following commands based on the required branch (e.g. main - Hello World).
+- url: https://github.com/JeanCarloLP/UI5-Template.git
+- clone the url
+<p align="center">
+<img src="git-images/cloneUrl.png" width="500">
+</p>
+
+- if you are using VSC just go to git section on the command palette and set the clone url branch and set the new local repository folder.
+<p align="center">
+<img src="git-images/gitClone.png" width="500">
+</p> 
+
+- install and execute the app
+
+```
+# Global installation to have the command available
+npm install --global @ui5/cli
+
+# Additional local install in your project
+npm install --save-dev @ui5/cli
+
+# npm install
+
+# That's all! now you can execute one of the following commands to execute the App
+  npm run dev (App layout)
+  npm start (App Layout)
+  npm run mockdev (FLP - App layout)
+```
+<p align="center">
+<img src="git-images/flpTemplate.png" width="500">
+</p> 
 
 <br/>
 <br/>
 
 # Basic installations and settings
+In case you need more detailed info or step by step guide read the rest of the README.md  
 We start with our development or download and installation of the project, we must take into account the following requirements for the use of our tools.  
 There are some mandatory installations and some other that are simple recomendations but here you have a few tools that can help on the process.  
 
