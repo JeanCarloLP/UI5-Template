@@ -1,0 +1,776 @@
+{
+  "d": {
+    "results": [
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=1,CategoryName='Beverages',ProductName='Chai')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 1,
+        "CategoryName": "Beverages",
+        "ProductName": "Chai",
+        "ProductSales": "4887.0000"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=1,CategoryName='Beverages',ProductName='Chang')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 1,
+        "CategoryName": "Beverages",
+        "ProductName": "Chang",
+        "ProductSales": "7038.5500"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=1,CategoryName='Beverages',ProductName='Chartreuse%20verte')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 1,
+        "CategoryName": "Beverages",
+        "ProductName": "Chartreuse verte",
+        "ProductSales": "4475.7000"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=1,CategoryName='Beverages',ProductName='C%C3%B4te%20de%20Blaye')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 1,
+        "CategoryName": "Beverages",
+        "ProductName": "Côte de Blaye",
+        "ProductSales": "49198.0900"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=1,CategoryName='Beverages',ProductName='Guaran%C3%A1%20Fant%C3%A1stica')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 1,
+        "CategoryName": "Beverages",
+        "ProductName": "Guaraná Fantástica",
+        "ProductSales": "1630.1300"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=1,CategoryName='Beverages',ProductName='Ipoh%20Coffee')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 1,
+        "CategoryName": "Beverages",
+        "ProductName": "Ipoh Coffee",
+        "ProductSales": "11069.9000"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=1,CategoryName='Beverages',ProductName='Lakkalik%C3%B6%C3%B6ri')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 1,
+        "CategoryName": "Beverages",
+        "ProductName": "Lakkalikööri",
+        "ProductSales": "7379.1000"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=1,CategoryName='Beverages',ProductName='Laughing%20Lumberjack%20Lager')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 1,
+        "CategoryName": "Beverages",
+        "ProductName": "Laughing Lumberjack Lager",
+        "ProductSales": "910.0000"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=1,CategoryName='Beverages',ProductName='Outback%20Lager')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 1,
+        "CategoryName": "Beverages",
+        "ProductName": "Outback Lager",
+        "ProductSales": "5468.4000"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=1,CategoryName='Beverages',ProductName='Rh%C3%B6nbr%C3%A4u%20Klosterbier')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 1,
+        "CategoryName": "Beverages",
+        "ProductName": "Rhönbräu Klosterbier",
+        "ProductSales": "4485.5400"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=1,CategoryName='Beverages',ProductName='Sasquatch%20Ale')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 1,
+        "CategoryName": "Beverages",
+        "ProductName": "Sasquatch Ale",
+        "ProductSales": "2107.0000"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=1,CategoryName='Beverages',ProductName='Steeleye%20Stout')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 1,
+        "CategoryName": "Beverages",
+        "ProductName": "Steeleye Stout",
+        "ProductSales": "5274.9000"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=2,CategoryName='Condiments',ProductName='Aniseed%20Syrup')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 2,
+        "CategoryName": "Condiments",
+        "ProductName": "Aniseed Syrup",
+        "ProductSales": "1724.0000"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=2,CategoryName='Condiments',ProductName='Chef%20Anton''s%20Cajun%20Seasoning')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 2,
+        "CategoryName": "Condiments",
+        "ProductName": "Chef Anton's Cajun Seasoning",
+        "ProductSales": "5214.8800"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=2,CategoryName='Condiments',ProductName='Chef%20Anton''s%20Gumbo%20Mix')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 2,
+        "CategoryName": "Condiments",
+        "ProductName": "Chef Anton's Gumbo Mix",
+        "ProductSales": "373.6300"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=2,CategoryName='Condiments',ProductName='Genen%20Shouyu')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 2,
+        "CategoryName": "Condiments",
+        "ProductName": "Genen Shouyu",
+        "ProductSales": "1474.8300"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=2,CategoryName='Condiments',ProductName='Grandma''s%20Boysenberry%20Spread')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 2,
+        "CategoryName": "Condiments",
+        "ProductName": "Grandma's Boysenberry Spread",
+        "ProductSales": "2500.0000"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=2,CategoryName='Condiments',ProductName='Gula%20Malacca')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 2,
+        "CategoryName": "Condiments",
+        "ProductName": "Gula Malacca",
+        "ProductSales": "6737.9500"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=2,CategoryName='Condiments',ProductName='Louisiana%20Fiery%20Hot%20Pepper%20Sauce')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 2,
+        "CategoryName": "Condiments",
+        "ProductName": "Louisiana Fiery Hot Pepper Sauce",
+        "ProductSales": "9373.1800"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=2,CategoryName='Condiments',ProductName='Louisiana%20Hot%20Spiced%20Okra')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 2,
+        "CategoryName": "Condiments",
+        "ProductName": "Louisiana Hot Spiced Okra",
+        "ProductSales": "2958.0000"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=2,CategoryName='Condiments',ProductName='Northwoods%20Cranberry%20Sauce')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 2,
+        "CategoryName": "Condiments",
+        "ProductName": "Northwoods Cranberry Sauce",
+        "ProductSales": "4260.0000"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=2,CategoryName='Condiments',ProductName='Original%20Frankfurter%20gr%C3%BCne%20So%C3%9Fe')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 2,
+        "CategoryName": "Condiments",
+        "ProductName": "Original Frankfurter grüne Soße",
+        "ProductSales": "4761.3800"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=2,CategoryName='Condiments',ProductName='Sirop%20d''%C3%A9rable')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 2,
+        "CategoryName": "Condiments",
+        "ProductName": "Sirop d'érable",
+        "ProductSales": "9091.5000"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=2,CategoryName='Condiments',ProductName='Vegie-spread')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 2,
+        "CategoryName": "Condiments",
+        "ProductName": "Vegie-spread",
+        "ProductSales": "6899.2500"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=3,CategoryName='Confections',ProductName='Chocolade')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 3,
+        "CategoryName": "Confections",
+        "ProductName": "Chocolade",
+        "ProductSales": "1282.0100"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=3,CategoryName='Confections',ProductName='Gumb%C3%A4r%20Gummib%C3%A4rchen')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 3,
+        "CategoryName": "Confections",
+        "ProductName": "Gumbär Gummibärchen",
+        "ProductSales": "10443.0700"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=3,CategoryName='Confections',ProductName='Maxilaku')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 3,
+        "CategoryName": "Confections",
+        "ProductName": "Maxilaku",
+        "ProductSales": "3128.6000"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=3,CategoryName='Confections',ProductName='NuNuCa%20Nu%C3%9F-Nougat-Creme')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 3,
+        "CategoryName": "Confections",
+        "ProductName": "NuNuCa Nuß-Nougat-Creme",
+        "ProductSales": "1692.6000"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=3,CategoryName='Confections',ProductName='Pavlova')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 3,
+        "CategoryName": "Confections",
+        "ProductName": "Pavlova",
+        "ProductSales": "8663.4200"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=3,CategoryName='Confections',ProductName='Schoggi%20Schokolade')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 3,
+        "CategoryName": "Confections",
+        "ProductName": "Schoggi Schokolade",
+        "ProductSales": "10974.0000"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=3,CategoryName='Confections',ProductName='Scottish%20Longbreads')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 3,
+        "CategoryName": "Confections",
+        "ProductName": "Scottish Longbreads",
+        "ProductSales": "4157.5000"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=3,CategoryName='Confections',ProductName='Sir%20Rodney''s%20Marmalade')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 3,
+        "CategoryName": "Confections",
+        "ProductName": "Sir Rodney's Marmalade",
+        "ProductSales": "7314.3000"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=3,CategoryName='Confections',ProductName='Sir%20Rodney''s%20Scones')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 3,
+        "CategoryName": "Confections",
+        "ProductName": "Sir Rodney's Scones",
+        "ProductSales": "5273.0000"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=3,CategoryName='Confections',ProductName='Tarte%20au%20sucre')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 3,
+        "CategoryName": "Confections",
+        "ProductName": "Tarte au sucre",
+        "ProductSales": "21638.2900"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=3,CategoryName='Confections',ProductName='Teatime%20Chocolate%20Biscuits')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 3,
+        "CategoryName": "Confections",
+        "ProductName": "Teatime Chocolate Biscuits",
+        "ProductSales": "2986.7500"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=3,CategoryName='Confections',ProductName='Valkoinen%20suklaa')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 3,
+        "CategoryName": "Confections",
+        "ProductName": "Valkoinen suklaa",
+        "ProductSales": "2173.4400"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=3,CategoryName='Confections',ProductName='Zaanse%20koeken')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 3,
+        "CategoryName": "Confections",
+        "ProductName": "Zaanse koeken",
+        "ProductSales": "2930.7500"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=4,CategoryName='Dairy%20Products',ProductName='Camembert%20Pierrot')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 4,
+        "CategoryName": "Dairy Products",
+        "ProductName": "Camembert Pierrot",
+        "ProductSales": "20505.4000"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=4,CategoryName='Dairy%20Products',ProductName='Flotemysost')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 4,
+        "CategoryName": "Dairy Products",
+        "ProductName": "Flotemysost",
+        "ProductSales": "8438.7600"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=4,CategoryName='Dairy%20Products',ProductName='Geitost')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 4,
+        "CategoryName": "Dairy Products",
+        "ProductName": "Geitost",
+        "ProductSales": "786.0000"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=4,CategoryName='Dairy%20Products',ProductName='Gorgonzola%20Telino')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 4,
+        "CategoryName": "Dairy Products",
+        "ProductName": "Gorgonzola Telino",
+        "ProductSales": "7300.7500"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=4,CategoryName='Dairy%20Products',ProductName='Gudbrandsdalsost')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 4,
+        "CategoryName": "Dairy Products",
+        "ProductName": "Gudbrandsdalsost",
+        "ProductSales": "13062.6000"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=4,CategoryName='Dairy%20Products',ProductName='Mascarpone%20Fabioli')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 4,
+        "CategoryName": "Dairy Products",
+        "ProductName": "Mascarpone Fabioli",
+        "ProductSales": "2668.8000"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=4,CategoryName='Dairy%20Products',ProductName='Mozzarella%20di%20Giovanni')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 4,
+        "CategoryName": "Dairy Products",
+        "ProductName": "Mozzarella di Giovanni",
+        "ProductSales": "11602.8000"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=4,CategoryName='Dairy%20Products',ProductName='Queso%20Cabrales')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 4,
+        "CategoryName": "Dairy Products",
+        "ProductName": "Queso Cabrales",
+        "ProductSales": "6911.9400"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=4,CategoryName='Dairy%20Products',ProductName='Queso%20Manchego%20La%20Pastora')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 4,
+        "CategoryName": "Dairy Products",
+        "ProductName": "Queso Manchego La Pastora",
+        "ProductSales": "8335.3000"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=4,CategoryName='Dairy%20Products',ProductName='Raclette%20Courdavault')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 4,
+        "CategoryName": "Dairy Products",
+        "ProductName": "Raclette Courdavault",
+        "ProductSales": "35775.3000"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=5,CategoryName='Grains/Cereals',ProductName='Filo%20Mix')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 5,
+        "CategoryName": "Grains/Cereals",
+        "ProductName": "Filo Mix",
+        "ProductSales": "2124.1500"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=5,CategoryName='Grains/Cereals',ProductName='Gnocchi%20di%20nonna%20Alice')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 5,
+        "CategoryName": "Grains/Cereals",
+        "ProductName": "Gnocchi di nonna Alice",
+        "ProductSales": "32604.0000"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=5,CategoryName='Grains/Cereals',ProductName='Gustaf''s%20Kn%C3%A4ckebr%C3%B6d')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 5,
+        "CategoryName": "Grains/Cereals",
+        "ProductName": "Gustaf's Knäckebröd",
+        "ProductSales": "4233.6000"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=5,CategoryName='Grains/Cereals',ProductName='Ravioli%20Angelo')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 5,
+        "CategoryName": "Grains/Cereals",
+        "ProductName": "Ravioli Angelo",
+        "ProductSales": "2156.7000"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=5,CategoryName='Grains/Cereals',ProductName='Singaporean%20Hokkien%20Fried%20Mee')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 5,
+        "CategoryName": "Grains/Cereals",
+        "ProductName": "Singaporean Hokkien Fried Mee",
+        "ProductSales": "5408.2000"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=5,CategoryName='Grains/Cereals',ProductName='Tunnbr%C3%B6d')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 5,
+        "CategoryName": "Grains/Cereals",
+        "ProductName": "Tunnbröd",
+        "ProductSales": "2288.7000"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=5,CategoryName='Grains/Cereals',ProductName='Wimmers%20gute%20Semmelkn%C3%B6del')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 5,
+        "CategoryName": "Grains/Cereals",
+        "ProductName": "Wimmers gute Semmelknödel",
+        "ProductSales": "8056.4700"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=6,CategoryName='Meat/Poultry',ProductName='Alice%20Mutton')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 6,
+        "CategoryName": "Meat/Poultry",
+        "ProductName": "Alice Mutton",
+        "ProductSales": "17604.6000"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=6,CategoryName='Meat/Poultry',ProductName='Mishi%20Kobe%20Niku')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 6,
+        "CategoryName": "Meat/Poultry",
+        "ProductName": "Mishi Kobe Niku",
+        "ProductSales": "6935.5000"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=6,CategoryName='Meat/Poultry',ProductName='P%C3%A2t%C3%A9%20chinois')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 6,
+        "CategoryName": "Meat/Poultry",
+        "ProductName": "Pâté chinois",
+        "ProductSales": "7832.8800"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=6,CategoryName='Meat/Poultry',ProductName='Perth%20Pasties')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 6,
+        "CategoryName": "Meat/Poultry",
+        "ProductName": "Perth Pasties",
+        "ProductSales": "10661.9300"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=6,CategoryName='Meat/Poultry',ProductName='Th%C3%BCringer%20Rostbratwurst')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 6,
+        "CategoryName": "Meat/Poultry",
+        "ProductName": "Thüringer Rostbratwurst",
+        "ProductSales": "34755.9200"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=6,CategoryName='Meat/Poultry',ProductName='Tourti%C3%A8re')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 6,
+        "CategoryName": "Meat/Poultry",
+        "ProductName": "Tourtière",
+        "ProductSales": "3184.2900"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=7,CategoryName='Produce',ProductName='Longlife%20Tofu')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 7,
+        "CategoryName": "Produce",
+        "ProductName": "Longlife Tofu",
+        "ProductSales": "1000.5000"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=7,CategoryName='Produce',ProductName='Manjimup%20Dried%20Apples')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 7,
+        "CategoryName": "Produce",
+        "ProductName": "Manjimup Dried Apples",
+        "ProductSales": "24570.8000"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=7,CategoryName='Produce',ProductName='R%C3%B6ssle%20Sauerkraut')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 7,
+        "CategoryName": "Produce",
+        "ProductName": "Rössle Sauerkraut",
+        "ProductSales": "13948.6800"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=7,CategoryName='Produce',ProductName='Tofu')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 7,
+        "CategoryName": "Produce",
+        "ProductName": "Tofu",
+        "ProductSales": "6234.4800"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=7,CategoryName='Produce',ProductName='Uncle%20Bob''s%20Organic%20Dried%20Pears')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 7,
+        "CategoryName": "Produce",
+        "ProductName": "Uncle Bob's Organic Dried Pears",
+        "ProductSales": "9186.3000"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=8,CategoryName='Seafood',ProductName='Boston%20Crab%20Meat')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 8,
+        "CategoryName": "Seafood",
+        "ProductName": "Boston Crab Meat",
+        "ProductSales": "9814.7300"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=8,CategoryName='Seafood',ProductName='Carnarvon%20Tigers')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 8,
+        "CategoryName": "Seafood",
+        "ProductName": "Carnarvon Tigers",
+        "ProductSales": "15950.0000"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=8,CategoryName='Seafood',ProductName='Escargots%20de%20Bourgogne')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 8,
+        "CategoryName": "Seafood",
+        "ProductName": "Escargots de Bourgogne",
+        "ProductSales": "2076.2800"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=8,CategoryName='Seafood',ProductName='Gravad%20lax')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 8,
+        "CategoryName": "Seafood",
+        "ProductName": "Gravad lax",
+        "ProductSales": "629.2000"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=8,CategoryName='Seafood',ProductName='Ikura')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 8,
+        "CategoryName": "Seafood",
+        "ProductName": "Ikura",
+        "ProductSales": "9935.5000"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=8,CategoryName='Seafood',ProductName='Inlagd%20Sill')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 8,
+        "CategoryName": "Seafood",
+        "ProductName": "Inlagd Sill",
+        "ProductSales": "6894.1500"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=8,CategoryName='Seafood',ProductName='Jack''s%20New%20England%20Clam%20Chowder')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 8,
+        "CategoryName": "Seafood",
+        "ProductName": "Jack's New England Clam Chowder",
+        "ProductSales": "4957.2500"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=8,CategoryName='Seafood',ProductName='Konbu')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 8,
+        "CategoryName": "Seafood",
+        "ProductName": "Konbu",
+        "ProductSales": "812.9400"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=8,CategoryName='Seafood',ProductName='Nord-Ost%20Matjeshering')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 8,
+        "CategoryName": "Seafood",
+        "ProductName": "Nord-Ost Matjeshering",
+        "ProductSales": "6034.3900"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=8,CategoryName='Seafood',ProductName='R%C3%B6d%20Kaviar')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 8,
+        "CategoryName": "Seafood",
+        "ProductName": "Röd Kaviar",
+        "ProductSales": "3517.5000"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=8,CategoryName='Seafood',ProductName='Rogede%20sild')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 8,
+        "CategoryName": "Seafood",
+        "ProductName": "Rogede sild",
+        "ProductSales": "3355.8700"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_by_Categories(CategoryID=8,CategoryName='Seafood',ProductName='Spegesild')",
+          "type": "NorthwindModel.Sales_by_Category"
+        },
+        "CategoryID": 8,
+        "CategoryName": "Seafood",
+        "ProductName": "Spegesild",
+        "ProductSales": "2981.4000"
+      }
+    ]
+  }
+}

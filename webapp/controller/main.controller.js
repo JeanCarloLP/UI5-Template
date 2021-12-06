@@ -36,7 +36,7 @@ sap.ui.define([
             success: function( oData ) {
                 // the data is loaded
                 console.table( oData.results );
-                debugger; // Check oData on the console
+                // debugger; // Check oData on the console
             }
         })
     };

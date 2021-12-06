@@ -1,0 +1,1007 @@
+{
+  "d": {
+    "results": [
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Alfreds%20Futterkiste',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Berlin",
+        "CompanyName": "Alfreds Futterkiste",
+        "ContactName": "Maria Anders",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Ana%20Trujillo%20Emparedados%20y%20helados',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "México D.F.",
+        "CompanyName": "Ana Trujillo Emparedados y helados",
+        "ContactName": "Ana Trujillo",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Antonio%20Moreno%20Taquer%C3%ADa',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "México D.F.",
+        "CompanyName": "Antonio Moreno Taquería",
+        "ContactName": "Antonio Moreno",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Around%20the%20Horn',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "London",
+        "CompanyName": "Around the Horn",
+        "ContactName": "Thomas Hardy",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Aux%20joyeux%20eccl%C3%A9siastiques',Relationship='Suppliers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Paris",
+        "CompanyName": "Aux joyeux ecclésiastiques",
+        "ContactName": "Guylène Nodier",
+        "Relationship": "Suppliers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Berglunds%20snabbk%C3%B6p',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Luleå",
+        "CompanyName": "Berglunds snabbköp",
+        "ContactName": "Christina Berglund",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Bigfoot%20Breweries',Relationship='Suppliers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Bend",
+        "CompanyName": "Bigfoot Breweries",
+        "ContactName": "Cheryl Saylor",
+        "Relationship": "Suppliers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Blauer%20See%20Delikatessen',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Mannheim",
+        "CompanyName": "Blauer See Delikatessen",
+        "ContactName": "Hanna Moos",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Blondesddsl%20p%C3%A8re%20et%20fils',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Strasbourg",
+        "CompanyName": "Blondesddsl père et fils",
+        "ContactName": "Frédérique Citeaux",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='B%C3%B3lido%20Comidas%20preparadas',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Madrid",
+        "CompanyName": "Bólido Comidas preparadas",
+        "ContactName": "Martín Sommer",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Bon%20app''',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Marseille",
+        "CompanyName": "Bon app'",
+        "ContactName": "Laurence Lebihan",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Bottom-Dollar%20Markets',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Tsawassen",
+        "CompanyName": "Bottom-Dollar Markets",
+        "ContactName": "Elizabeth Lincoln",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='B''s%20Beverages',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "London",
+        "CompanyName": "B's Beverages",
+        "ContactName": "Victoria Ashworth",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Cactus%20Comidas%20para%20llevar',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Buenos Aires",
+        "CompanyName": "Cactus Comidas para llevar",
+        "ContactName": "Patricio Simpson",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Centro%20comercial%20Moctezuma',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "México D.F.",
+        "CompanyName": "Centro comercial Moctezuma",
+        "ContactName": "Francisco Chang",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Chop-suey%20Chinese',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Bern",
+        "CompanyName": "Chop-suey Chinese",
+        "ContactName": "Yang Wang",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Com%C3%A9rcio%20Mineiro',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Sao Paulo",
+        "CompanyName": "Comércio Mineiro",
+        "ContactName": "Pedro Afonso",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Consolidated%20Holdings',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "London",
+        "CompanyName": "Consolidated Holdings",
+        "ContactName": "Elizabeth Brown",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Cooperativa%20de%20Quesos%20''Las%20Cabras''',Relationship='Suppliers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Oviedo",
+        "CompanyName": "Cooperativa de Quesos 'Las Cabras'",
+        "ContactName": "Antonio del Valle Saavedra",
+        "Relationship": "Suppliers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Die%20Wandernde%20Kuh',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Stuttgart",
+        "CompanyName": "Die Wandernde Kuh",
+        "ContactName": "Rita Müller",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Drachenblut%20Delikatessen',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Aachen",
+        "CompanyName": "Drachenblut Delikatessen",
+        "ContactName": "Sven Ottlieb",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Du%20monde%20entier',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Nantes",
+        "CompanyName": "Du monde entier",
+        "ContactName": "Janine Labrune",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Eastern%20Connection',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "London",
+        "CompanyName": "Eastern Connection",
+        "ContactName": "Ann Devon",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Ernst%20Handel',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Graz",
+        "CompanyName": "Ernst Handel",
+        "ContactName": "Roland Mendel",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Escargots%20Nouveaux',Relationship='Suppliers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Montceau",
+        "CompanyName": "Escargots Nouveaux",
+        "ContactName": "Marie Delamare",
+        "Relationship": "Suppliers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Exotic%20Liquids',Relationship='Suppliers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "London",
+        "CompanyName": "Exotic Liquids",
+        "ContactName": "Charlotte Cooper",
+        "Relationship": "Suppliers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Familia%20Arquibaldo',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Sao Paulo",
+        "CompanyName": "Familia Arquibaldo",
+        "ContactName": "Aria Cruz",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='FISSA%20Fabrica%20Inter.%20Salchichas%20S.A.',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Madrid",
+        "CompanyName": "FISSA Fabrica Inter. Salchichas S.A.",
+        "ContactName": "Diego Roel",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Folies%20gourmandes',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Lille",
+        "CompanyName": "Folies gourmandes",
+        "ContactName": "Martine Rancé",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Folk%20och%20f%C3%A4%20HB',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Bräcke",
+        "CompanyName": "Folk och fä HB",
+        "ContactName": "Maria Larsson",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='For%C3%AAts%20d''%C3%A9rables',Relationship='Suppliers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Ste-Hyacinthe",
+        "CompanyName": "Forêts d'érables",
+        "ContactName": "Chantal Goulet",
+        "Relationship": "Suppliers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Formaggi%20Fortini%20s.r.l.',Relationship='Suppliers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Ravenna",
+        "CompanyName": "Formaggi Fortini s.r.l.",
+        "ContactName": "Elio Rossi",
+        "Relationship": "Suppliers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='France%20restauration',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Nantes",
+        "CompanyName": "France restauration",
+        "ContactName": "Carine Schmitt",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Franchi%20S.p.A.',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Torino",
+        "CompanyName": "Franchi S.p.A.",
+        "ContactName": "Paolo Accorti",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Frankenversand',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "München",
+        "CompanyName": "Frankenversand",
+        "ContactName": "Peter Franken",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Furia%20Bacalhau%20e%20Frutos%20do%20Mar',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Lisboa",
+        "CompanyName": "Furia Bacalhau e Frutos do Mar",
+        "ContactName": "Lino Rodriguez",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Gai%20p%C3%A2turage',Relationship='Suppliers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Annecy",
+        "CompanyName": "Gai pâturage",
+        "ContactName": "Eliane Noz",
+        "Relationship": "Suppliers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Galer%C3%ADa%20del%20gastr%C3%B3nomo',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Barcelona",
+        "CompanyName": "Galería del gastrónomo",
+        "ContactName": "Eduardo Saavedra",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='G''day%2C%20Mate',Relationship='Suppliers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Sydney",
+        "CompanyName": "G'day, Mate",
+        "ContactName": "Wendy Mackenzie",
+        "Relationship": "Suppliers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Godos%20Cocina%20T%C3%ADpica',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Sevilla",
+        "CompanyName": "Godos Cocina Típica",
+        "ContactName": "José Pedro Freyre",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Gourmet%20Lanchonetes',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Campinas",
+        "CompanyName": "Gourmet Lanchonetes",
+        "ContactName": "André Fonseca",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Grandma%20Kelly''s%20Homestead',Relationship='Suppliers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Ann Arbor",
+        "CompanyName": "Grandma Kelly's Homestead",
+        "ContactName": "Regina Murphy",
+        "Relationship": "Suppliers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Great%20Lakes%20Food%20Market',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Eugene",
+        "CompanyName": "Great Lakes Food Market",
+        "ContactName": "Howard Snyder",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='GROSELLA-Restaurante',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Caracas",
+        "CompanyName": "GROSELLA-Restaurante",
+        "ContactName": "Manuel Pereira",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Hanari%20Carnes',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Rio de Janeiro",
+        "CompanyName": "Hanari Carnes",
+        "ContactName": "Mario Pontes",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Heli%20S%C3%BC%C3%9Fwaren%20GmbH%20%26%20Co.%20KG',Relationship='Suppliers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Berlin",
+        "CompanyName": "Heli Süßwaren GmbH & Co. KG",
+        "ContactName": "Petra Winkler",
+        "Relationship": "Suppliers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='HILARION-Abastos',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "San Cristóbal",
+        "CompanyName": "HILARION-Abastos",
+        "ContactName": "Carlos Hernández",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Hungry%20Coyote%20Import%20Store',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Elgin",
+        "CompanyName": "Hungry Coyote Import Store",
+        "ContactName": "Yoshi Latimer",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Hungry%20Owl%20All-Night%20Grocers',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Cork",
+        "CompanyName": "Hungry Owl All-Night Grocers",
+        "ContactName": "Patricia McKenna",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Island%20Trading',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Cowes",
+        "CompanyName": "Island Trading",
+        "ContactName": "Helen Bennett",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Karkki%20Oy',Relationship='Suppliers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Lappeenranta",
+        "CompanyName": "Karkki Oy",
+        "ContactName": "Anne Heikkonen",
+        "Relationship": "Suppliers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='K%C3%B6niglich%20Essen',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Brandenburg",
+        "CompanyName": "Königlich Essen",
+        "ContactName": "Philip Cramer",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='La%20corne%20d''abondance',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Versailles",
+        "CompanyName": "La corne d'abondance",
+        "ContactName": "Daniel Tonini",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='La%20maison%20d''Asie',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Toulouse",
+        "CompanyName": "La maison d'Asie",
+        "ContactName": "Annette Roulet",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Laughing%20Bacchus%20Wine%20Cellars',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Vancouver",
+        "CompanyName": "Laughing Bacchus Wine Cellars",
+        "ContactName": "Yoshi Tannamuri",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Lazy%20K%20Kountry%20Store',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Walla Walla",
+        "CompanyName": "Lazy K Kountry Store",
+        "ContactName": "John Steel",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Lehmanns%20Marktstand',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Frankfurt a.M.",
+        "CompanyName": "Lehmanns Marktstand",
+        "ContactName": "Renate Messner",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Leka%20Trading',Relationship='Suppliers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Singapore",
+        "CompanyName": "Leka Trading",
+        "ContactName": "Chandra Leka",
+        "Relationship": "Suppliers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Let''s%20Stop%20N%20Shop',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "San Francisco",
+        "CompanyName": "Let's Stop N Shop",
+        "ContactName": "Jaime Yorres",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='LILA-Supermercado',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Barquisimeto",
+        "CompanyName": "LILA-Supermercado",
+        "ContactName": "Carlos González",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='LINO-Delicateses',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "I. de Margarita",
+        "CompanyName": "LINO-Delicateses",
+        "ContactName": "Felipe Izquierdo",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Lonesome%20Pine%20Restaurant',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Portland",
+        "CompanyName": "Lonesome Pine Restaurant",
+        "ContactName": "Fran Wilson",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Lyngbysild',Relationship='Suppliers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Lyngby",
+        "CompanyName": "Lyngbysild",
+        "ContactName": "Niels Petersen",
+        "Relationship": "Suppliers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Ma%20Maison',Relationship='Suppliers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Montréal",
+        "CompanyName": "Ma Maison",
+        "ContactName": "Jean-Guy Lauzon",
+        "Relationship": "Suppliers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Magazzini%20Alimentari%20Riuniti',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Bergamo",
+        "CompanyName": "Magazzini Alimentari Riuniti",
+        "ContactName": "Giovanni Rovelli",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Maison%20Dewey',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Bruxelles",
+        "CompanyName": "Maison Dewey",
+        "ContactName": "Catherine Dewey",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Mayumi''s',Relationship='Suppliers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Osaka",
+        "CompanyName": "Mayumi's",
+        "ContactName": "Mayumi Ohno",
+        "Relationship": "Suppliers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='M%C3%A8re%20Paillarde',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Montréal",
+        "CompanyName": "Mère Paillarde",
+        "ContactName": "Jean Fresnière",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Morgenstern%20Gesundkost',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Leipzig",
+        "CompanyName": "Morgenstern Gesundkost",
+        "ContactName": "Alexander Feuer",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='New%20England%20Seafood%20Cannery',Relationship='Suppliers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Boston",
+        "CompanyName": "New England Seafood Cannery",
+        "ContactName": "Robb Merchant",
+        "Relationship": "Suppliers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='New%20Orleans%20Cajun%20Delights',Relationship='Suppliers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "New Orleans",
+        "CompanyName": "New Orleans Cajun Delights",
+        "ContactName": "Shelley Burke",
+        "Relationship": "Suppliers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Nord-Ost-Fisch%20Handelsgesellschaft%20mbH',Relationship='Suppliers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Cuxhaven",
+        "CompanyName": "Nord-Ost-Fisch Handelsgesellschaft mbH",
+        "ContactName": "Sven Petersen",
+        "Relationship": "Suppliers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Norske%20Meierier',Relationship='Suppliers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Sandvika",
+        "CompanyName": "Norske Meierier",
+        "ContactName": "Beate Vileid",
+        "Relationship": "Suppliers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='North/South',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "London",
+        "CompanyName": "North/South",
+        "ContactName": "Simon Crowther",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Oc%C3%A9ano%20Atl%C3%A1ntico%20Ltda.',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Buenos Aires",
+        "CompanyName": "Océano Atlántico Ltda.",
+        "ContactName": "Yvonne Moncada",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Old%20World%20Delicatessen',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Anchorage",
+        "CompanyName": "Old World Delicatessen",
+        "ContactName": "Rene Phillips",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Ottilies%20K%C3%A4seladen',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Köln",
+        "CompanyName": "Ottilies Käseladen",
+        "ContactName": "Henriette Pfalzheim",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Paris%20sp%C3%A9cialit%C3%A9s',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Paris",
+        "CompanyName": "Paris spécialités",
+        "ContactName": "Marie Bertrand",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Pasta%20Buttini%20s.r.l.',Relationship='Suppliers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Salerno",
+        "CompanyName": "Pasta Buttini s.r.l.",
+        "ContactName": "Giovanni Giudici",
+        "Relationship": "Suppliers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Pavlova%2C%20Ltd.',Relationship='Suppliers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Melbourne",
+        "CompanyName": "Pavlova, Ltd.",
+        "ContactName": "Ian Devling",
+        "Relationship": "Suppliers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='PB%20Kn%C3%A4ckebr%C3%B6d%20AB',Relationship='Suppliers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Göteborg",
+        "CompanyName": "PB Knäckebröd AB",
+        "ContactName": "Lars Peterson",
+        "Relationship": "Suppliers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Pericles%20Comidas%20cl%C3%A1sicas',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "México D.F.",
+        "CompanyName": "Pericles Comidas clásicas",
+        "ContactName": "Guillermo Fernández",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Piccolo%20und%20mehr',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Salzburg",
+        "CompanyName": "Piccolo und mehr",
+        "ContactName": "Georg Pipps",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Plutzer%20Lebensmittelgro%C3%9Fm%C3%A4rkte%20AG',Relationship='Suppliers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Frankfurt",
+        "CompanyName": "Plutzer Lebensmittelgroßmärkte AG",
+        "ContactName": "Martin Bein",
+        "Relationship": "Suppliers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Princesa%20Isabel%20Vinhos',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Lisboa",
+        "CompanyName": "Princesa Isabel Vinhos",
+        "ContactName": "Isabel de Castro",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Que%20Del%C3%ADcia',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Rio de Janeiro",
+        "CompanyName": "Que Delícia",
+        "ContactName": "Bernardo Batista",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Queen%20Cozinha',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Sao Paulo",
+        "CompanyName": "Queen Cozinha",
+        "ContactName": "Lúcia Carvalho",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='QUICK-Stop',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Cunewalde",
+        "CompanyName": "QUICK-Stop",
+        "ContactName": "Horst Kloss",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Rancho%20grande',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Buenos Aires",
+        "CompanyName": "Rancho grande",
+        "ContactName": "Sergio Gutiérrez",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Rattlesnake%20Canyon%20Grocery',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Albuquerque",
+        "CompanyName": "Rattlesnake Canyon Grocery",
+        "ContactName": "Paula Wilson",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Refrescos%20Americanas%20LTDA',Relationship='Suppliers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Sao Paulo",
+        "CompanyName": "Refrescos Americanas LTDA",
+        "ContactName": "Carlos Diaz",
+        "Relationship": "Suppliers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Reggiani%20Caseifici',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Reggio Emilia",
+        "CompanyName": "Reggiani Caseifici",
+        "ContactName": "Maurizio Moroni",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Ricardo%20Adocicados',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Rio de Janeiro",
+        "CompanyName": "Ricardo Adocicados",
+        "ContactName": "Janete Limeira",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Richter%20Supermarkt',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Genève",
+        "CompanyName": "Richter Supermarkt",
+        "ContactName": "Michael Holz",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Romero%20y%20tomillo',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Madrid",
+        "CompanyName": "Romero y tomillo",
+        "ContactName": "Alejandra Camino",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Sant%C3%A9%20Gourmet',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Stavern",
+        "CompanyName": "Santé Gourmet",
+        "ContactName": "Jonas Bergulfsen",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Save-a-lot%20Markets',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Boise",
+        "CompanyName": "Save-a-lot Markets",
+        "ContactName": "Jose Pavarotti",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Seven%20Seas%20Imports',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "London",
+        "CompanyName": "Seven Seas Imports",
+        "ContactName": "Hari Kumar",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Simons%20bistro',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Kobenhavn",
+        "CompanyName": "Simons bistro",
+        "ContactName": "Jytte Petersen",
+        "Relationship": "Customers"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities(CompanyName='Sp%C3%A9cialit%C3%A9s%20du%20monde',Relationship='Customers')",
+          "type": "NorthwindModel.Customer_and_Suppliers_by_City"
+        },
+        "City": "Paris",
+        "CompanyName": "Spécialités du monde",
+        "ContactName": "Dominique Perrier",
+        "Relationship": "Customers"
+      }
+    ],
+    "__next": "https://services.odata.org/V2/Northwind/Northwind.svc/Customer_and_Suppliers_by_Cities?$skiptoken='Sp%C3%A9cialit%C3%A9s%20du%20monde','Customers'"
+  }
+}

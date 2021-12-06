@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fiori Launchpad Sandbox (mockServer)</title>
+
+        <script>
+            window["sap-ushell-config"] = {
+                // In case of need user parameters must be setted.
+                /*
+                    services: {
+                        Container: {
+                            adapter: {
+                                config: {
+                                    setUserCallback: 'getMockUserData'
+                                }
+                            }
+                        }
+                    }
+                */
+                defaultRenderer: "fiori2",
+                renderers: {
+                    fiori2: {
+                        componentData: {
+                            config: {}
+                        }
+                    }
+                },
+                applications: {
+                    "SAPUI5-Template": {
+                        additionalInformation: "SAPUI5.Component=sap.ui.demo.template",
+                        description: "FLP Sandbox to check your template server.",
+                        icon: "sap-icon://add",
+                        navigationMode: "embedded",
+                        title: "UI5 Template",
+
+                        applicationType: "URL",
+                        url: "../",
+                    }
+                }
+            };
+        </script>
+
+        <script id="sap-ui-bootstrap" src="https://sapui5.hana.ondemand.com/1.92.2/test-resources/sap/ushell/bootstrap/sandbox.js"></script>
+        <script
+            id="sap-ui-bootstrap"
+            src="https://sapui5.hana.ondemand.com/1.92.2/resources/sap-ui-core.js"
+            data-sap-ui-libs="sap.m"
+            data-sap-ui-theme="sap_fiori_3"
+            data-sap-ui-compatVersion="edge"
+            data-sap-ui-async="true"
+            data-sap-ui-frameOptions="allow"
+            data-sap-ui-xx-bindingsyntax="complex"
+            data-sap-ui-resourceroots='{ "sap.ui.demo.template": "../" }'
+            data-sap-ui-oninit="module:sap/ui/demo/template/test/initMockServer"
+            data-sap-ui-preload="async">
+        </script>
+
+        <script>
+            sap.ui.getCore().attachInit(() => {
+                // sap.ushell.Container.createRenderer().placeAt("content");
+                sap.ui.require(
+                    ["sap/ui/demo/template/localService/mockServer"], ( mockServer ) => {
+                        
+                        // initialize the ushell sandbox component
+                        sap.ushell.Container.createRenderer().placeAt( 'content' );
+                        
+                        // Add helper FLP Shell items to switch language easily while testing
+                        let renderer = sap.ushell.Container.getRenderer( 'fiori2' ),
+                            languageMenu;
+                        
+                        renderer.addHeaderEndItem(
+                            "sap.ushell.ui.shell.ShellHeadItem",{
+                                id: "languageSelector",
+                                icon: "sap-icon://world",
+                                press: ( oEvent ) => {
+                                    const button = oEvent.getSource();
+                                    if( !languageMenu ) {
+                                        languageMenu = new sap.m.ActionSheet({
+                                            showCancelButton: false,
+                                            buttons: [
+                                                new sap.m.Button({
+                                                        text: "French",
+                                                        press: () => {
+                                                            window.location.search = 'sap-language=FR';
+                                                        }
+                                                }),
+                                                new sap.m.Button({
+                                                        text: "Nederlands",
+                                                        press: () => {
+                                                            window.location.search = 'sap-language=NL';
+                                                        }
+                                                }),
+                                                new sap.m.Button({
+                                                        text: "English",
+                                                        press: () => {
+                                                            window.location.search = 'sap-language=EN';
+                                                        }
+                                                }),
+                                                new sap.m.Button({
+                                                        text: "Spanish",
+                                                        press: () => {
+                                                            window.location.search = 'sap-language=Es';
+                                                        }
+                                                }),
+
+                                            ]
+                                        });
+                                    }
+                                    languageMenu.openBy( button );
+                                }
+                            }, 
+                            true, 
+                            false
+                        );
+                    }
+                )
+            });
+        </script>
+    </head>
+    <body class="sapUiBody" id="content"></body>
+</html>
