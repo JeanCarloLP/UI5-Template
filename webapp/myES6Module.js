@@ -23,7 +23,7 @@ sap.ui.define([
         else
             name = 'John Doe';
 
-		alert ( `${ name } says HI!!!` );
+		//alert ( `${ name } says HI!!!` );
 	}
 
 	return new Promise( ( resolve, reject ) => {

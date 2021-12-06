@@ -10,7 +10,7 @@ sap.ui.define([
     // The BaseController is inherited by all the controllers of the application.
     // Shared functionallity that can be triggered from multiple locations in the app.
     const BaseController = Controller.extend(
-        "sap.ui.demo.template.controller.baseController", {
+        "sap.ui.demo.template.controller.BaseController", {
             navProps: null
         }
     );
@@ -99,51 +99,5 @@ sap.ui.define([
         );
     }
 
-    // Method to add messages in the global message manager
-    BaseController.prototype._addMessage = function( message ) {
-        sap.ui.getCore().getMessageManager().addMessages(
-            new MessageChannel({
-                message: message.title,
-                description: message.description,
-                additionalText: message.text,
-                type: message.type || MessageType.Information,
-                target: message.target || null,
-                processor: message.processor || null,
-            })
-        )
-    }
-
-    // Method to remove messages in the global message manager
-    BaseController.prototype._removeMessagesForBinding = function( bindingPath ) {
-        let messages = this.getModel( 'messages' ).getData();
-        sap.ui.getCore().getMessageManager().removeMessages(
-            messages.filter( function( message ) {
-                return message.target === bindingPath;
-            })
-        )
-    }
-
-    // Event handler to open the message manager
-    BaseController.prototype.openMessages = function( event ) {
-        let source = event ? event.getSource() : this.byId('messageManager');
-        
-        Fragment.load({
-            name: 'sap.ui.demo.template.fragment.MessagePopOver',
-            controller: this,
-        }).then(
-            function( popover ) {
-                // model propagation
-                popover.setModel( this.getModel( 'messages' ), 'messages');
-                popover.openBy( source );
-
-                // make sure the popover is self-contained and destroys itself as soon as it's closed again.
-                popover.attachEvent( 'afterClose', {}, function() {
-                    popover.destroy();
-                });
-            }.bind(this)
-        );
-    }
-
     return BaseController;
-
 });

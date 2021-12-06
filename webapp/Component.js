@@ -2,14 +2,14 @@
 
 sap.ui.define([
     'sap/ui/core/UIComponent',
-    'sap/ui/demo/template/model/models'
-], function( UIComponent, models ) {
+    'sap/ui/demo/template/model/Models'
+], function( UIComponent, Models ) {
     'use strict';
     
     // This is the manin Component of your App, also serves as public interface when your component is embedded in another app.
     // Define here properties and events that need to be accesible from outside, as well as public methods.
     const Component = UIComponent.extend(
-        'sap.ui.demo.template.component', {
+        'sap.ui.demo.template.Component', {
             metadata: {
                 manifest: 'json'
             },
@@ -22,10 +22,9 @@ sap.ui.define([
         UIComponent.prototype.init.apply( this, arguments );
 
         // Set the device model
-        if( models )
-            this.setModel( models.createDeviceModel(), 'modelDevice' );
+        if( Models )
+            this.setModel( Models.createDeviceModel(), 'modelDevice' );
         
-
         // Initialize the router
         if( this.getRouter() )
             this.getRouter().initialize();

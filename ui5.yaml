@@ -32,12 +32,12 @@ framework:
     - name: themelib_sap_fiori_3
 server:
   customMiddleware:
-    # In case you use .env files to access your SDK version
-    # - name: ui5-middleware-simpleproxy
-    #   mountPath: /resources
-    #   afterMiddleware: compression
-    #   configuration:
-    #     baseUri: https://sapui5.hana.ondemand.com/resources/
+    - name: ui5-middleware-simpleproxy
+      afterMiddleware: compression
+      mountPath: /Northwind/V2/Northwind/Northwind.svc/
+      configuration:
+        debug: true
+        baseUri: https://services.odata.org/V2/Northwind/Northwind.svc/
     # - name: ui5-middleware-simpleproxy
     #   mountPath: /resources
     #   afterMiddleware: compression
