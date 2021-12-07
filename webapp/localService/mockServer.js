@@ -69,7 +69,7 @@ sap.ui.define([
             oMockServer.setRequests( aRequests );
             oMockServer.start();
 
-            console.info( "Running the app with mock data." );
+            // console.info( "Running the app with mock data." );
         },
 
         /**

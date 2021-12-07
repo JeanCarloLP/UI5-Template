@@ -52,7 +52,7 @@ sap.ui.define([
         // it was defined on the BaseController
         let testBundle = this.getResourceBundle();
         const title = testBundle.aPropertyFiles[0].mProperties.title;
-        console.info( `This title was setted on the i18n and we access through the Base Controller - title: ${ title } `);
+        // console.info( `This title was setted on the i18n and we access through the Base Controller - title: ${ title } `);
         
     };
 

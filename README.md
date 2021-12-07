@@ -9,19 +9,10 @@
 <br/>
 <br/>
 
-# Feature: feature-BaseController
-On this branch you can find the basics related to the BaseController.  
-It is true that it has been used from the beginning of the creation of this project, but this section is for a brief explanation of why it is convenient to use it.  
-( https://inui.io/sapui5-base-controller/ )
-
-A base controller is a controller with basic functionalities from which the other controllers in your SAPUI5 application inherit.  
-The base controller holds basic functionalities that are used across multiple controllers.  
-Since each controller inherits from the base controller, they all have the same basic functions as well. But without the need to implement it in each controller, just in the base controller. Additionally, if you make changes in the base controller, the changes get reflected in each controller.
-
-So check the getResourceBundle at the main controller on the 'onAfterRendering' function, you will be able to call the methods implemented on your BaseController on every controller you need in a similar way as the example.  
-<p align="center">
-<img src="git-images/bundle.png" width="800"> 
-</p> 
+# Features Implemented
+- BaseController
+- flpSandboxMockServer
+- dataSources
 
 <br/>
 <br/>
