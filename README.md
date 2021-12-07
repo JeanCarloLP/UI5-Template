@@ -9,10 +9,13 @@
 <br/>
 <br/>
 
-Before to start a simple branches scheme:  
-main         -> simple app with basic flp and structure  
-dev          -> project updated with the last updates working  
-feature-task -> last feature to be implementated  
+# Feature: feature-dataSources
+On this branch you can find the basics related to an app with a list data from the Northwind OData Service (V2).  
+On the file main.controller you can see the explanation on the coments on how you can manage the data and debug in case of need the whole object of your entitie.
+
+<p align="center">
+<img src="git-images/list.png" width="500">
+</p> 
 
 <br/>
 <br/>
