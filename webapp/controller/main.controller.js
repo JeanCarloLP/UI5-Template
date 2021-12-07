@@ -35,7 +35,7 @@ sap.ui.define([
         oModel.read(sEntityPath, {
             success: function( oData ) {
                 // the data is loaded
-                console.table( oData.results );
+                // console.table( oData.results );
                 // debugger; // Check oData on the console
             }
         })
@@ -47,6 +47,12 @@ sap.ui.define([
         // Same as inInit
         // Remember the asynchronous nature in SAPUI5
         // it means that some code parts might not get executed or loaded yet
+
+        // Quick demo to use the BaseController with getResourceBundle i18n
+        // it was defined on the BaseController
+        let testBundle = this.getResourceBundle();
+        const title = testBundle.aPropertyFiles[0].mProperties.title;
+        console.info( `This title was setted on the i18n and we access through the Base Controller - title: ${ title } `);
         
     };
 
