@@ -1,0 +1,58 @@
+{
+  "d": {
+    "results": [
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Regions(1)",
+          "type": "NorthwindModel.Region"
+        },
+        "RegionID": 1,
+        "RegionDescription": "Eastern ",
+        "Territories": {
+          "__deferred": {
+            "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Regions(1)/Territories"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Regions(2)",
+          "type": "NorthwindModel.Region"
+        },
+        "RegionID": 2,
+        "RegionDescription": "Western ",
+        "Territories": {
+          "__deferred": {
+            "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Regions(2)/Territories"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Regions(3)",
+          "type": "NorthwindModel.Region"
+        },
+        "RegionID": 3,
+        "RegionDescription": "Northern ",
+        "Territories": {
+          "__deferred": {
+            "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Regions(3)/Territories"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Regions(4)",
+          "type": "NorthwindModel.Region"
+        },
+        "RegionID": 4,
+        "RegionDescription": "Southern ",
+        "Territories": {
+          "__deferred": {
+            "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Regions(4)/Territories"
+          }
+        }
+      }
+    ]
+  }
+}

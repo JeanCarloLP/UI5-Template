@@ -1,0 +1,666 @@
+{
+  "d": {
+    "results": [
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='Berglunds%20snabbk%C3%B6p',OrderID=10524)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "3192.6500",
+        "OrderID": 10524,
+        "CompanyName": "Berglunds snabbköp",
+        "ShippedDate": "/Date(862963200000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='Berglunds%20snabbk%C3%B6p',OrderID=10672)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "3815.2500",
+        "OrderID": 10672,
+        "CompanyName": "Berglunds snabbköp",
+        "ShippedDate": "/Date(875232000000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='B%C3%B3lido%20Comidas%20preparadas',OrderID=10801)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "3026.8500",
+        "OrderID": 10801,
+        "CompanyName": "Bólido Comidas preparadas",
+        "ShippedDate": "/Date(883526400000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='Bon%20app''',OrderID=10511)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "2550.0000",
+        "OrderID": 10511,
+        "CompanyName": "Bon app'",
+        "ShippedDate": "/Date(861580800000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='Bottom-Dollar%20Markets',OrderID=10742)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "3118.0000",
+        "OrderID": 10742,
+        "CompanyName": "Bottom-Dollar Markets",
+        "ShippedDate": "/Date(879811200000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='Eastern%20Connection',OrderID=10400)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "3063.0000",
+        "OrderID": 10400,
+        "CompanyName": "Eastern Connection",
+        "ShippedDate": "/Date(853372800000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='Ernst%20Handel',OrderID=10402)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "2713.5000",
+        "OrderID": 10402,
+        "CompanyName": "Ernst Handel",
+        "ShippedDate": "/Date(852854400000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='Ernst%20Handel',OrderID=10430)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "4899.2000",
+        "OrderID": 10430,
+        "CompanyName": "Ernst Handel",
+        "ShippedDate": "/Date(854928000000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='Ernst%20Handel',OrderID=10514)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "8623.4500",
+        "OrderID": 10514,
+        "CompanyName": "Ernst Handel",
+        "ShippedDate": "/Date(863740800000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='Ernst%20Handel',OrderID=10595)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "4725.0000",
+        "OrderID": 10595,
+        "CompanyName": "Ernst Handel",
+        "ShippedDate": "/Date(868838400000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='Ernst%20Handel',OrderID=10633)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "5510.5900",
+        "OrderID": 10633,
+        "CompanyName": "Ernst Handel",
+        "ShippedDate": "/Date(871862400000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='Ernst%20Handel',OrderID=10698)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "3436.4500",
+        "OrderID": 10698,
+        "CompanyName": "Ernst Handel",
+        "ShippedDate": "/Date(877046400000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='Ernst%20Handel',OrderID=10776)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "6635.2700",
+        "OrderID": 10776,
+        "CompanyName": "Ernst Handel",
+        "ShippedDate": "/Date(882403200000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='Folies%20gourmandes',OrderID=10634)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "4985.5000",
+        "OrderID": 10634,
+        "CompanyName": "Folies gourmandes",
+        "ShippedDate": "/Date(872121600000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='Folies%20gourmandes',OrderID=10789)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "3687.0000",
+        "OrderID": 10789,
+        "CompanyName": "Folies gourmandes",
+        "ShippedDate": "/Date(883526400000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='Folk%20och%20f%C3%A4%20HB',OrderID=10561)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "2844.5000",
+        "OrderID": 10561,
+        "CompanyName": "Folk och fä HB",
+        "ShippedDate": "/Date(865814400000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='Folk%20och%20f%C3%A4%20HB',OrderID=10703)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "2545.0000",
+        "OrderID": 10703,
+        "CompanyName": "Folk och fä HB",
+        "ShippedDate": "/Date(877305600000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='Folk%20och%20f%C3%A4%20HB',OrderID=10762)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "4337.0000",
+        "OrderID": 10762,
+        "CompanyName": "Folk och fä HB",
+        "ShippedDate": "/Date(881625600000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='Godos%20Cocina%20T%C3%ADpica',OrderID=10629)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "2775.0500",
+        "OrderID": 10629,
+        "CompanyName": "Godos Cocina Típica",
+        "ShippedDate": "/Date(872035200000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='Gourmet%20Lanchonetes',OrderID=10709)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "3424.0000",
+        "OrderID": 10709,
+        "CompanyName": "Gourmet Lanchonetes",
+        "ShippedDate": "/Date(879984000000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='Great%20Lakes%20Food%20Market',OrderID=10616)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "4807.0100",
+        "OrderID": 10616,
+        "CompanyName": "Great Lakes Food Market",
+        "ShippedDate": "/Date(870739200000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='HILARION-Abastos',OrderID=10490)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "3163.2000",
+        "OrderID": 10490,
+        "CompanyName": "HILARION-Abastos",
+        "ShippedDate": "/Date(860025600000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='Hungry%20Owl%20All-Night%20Grocers',OrderID=10567)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "2519.0000",
+        "OrderID": 10567,
+        "CompanyName": "Hungry Owl All-Night Grocers",
+        "ShippedDate": "/Date(866505600000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='Hungry%20Owl%20All-Night%20Grocers',OrderID=10687)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "4960.9000",
+        "OrderID": 10687,
+        "CompanyName": "Hungry Owl All-Night Grocers",
+        "ShippedDate": "/Date(878169600000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='Hungry%20Owl%20All-Night%20Grocers',OrderID=10701)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "2864.5000",
+        "OrderID": 10701,
+        "CompanyName": "Hungry Owl All-Night Grocers",
+        "ShippedDate": "/Date(876873600000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='K%C3%B6niglich%20Essen',OrderID=10718)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "3463.0000",
+        "OrderID": 10718,
+        "CompanyName": "Königlich Essen",
+        "ShippedDate": "/Date(878083200000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='La%20maison%20d''Asie',OrderID=10787)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "2622.7600",
+        "OrderID": 10787,
+        "CompanyName": "La maison d'Asie",
+        "ShippedDate": "/Date(883094400000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='Lehmanns%20Marktstand',OrderID=10772)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "3603.2200",
+        "OrderID": 10772,
+        "CompanyName": "Lehmanns Marktstand",
+        "ShippedDate": "/Date(882489600000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='LINO-Delicateses',OrderID=10638)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "2720.0500",
+        "OrderID": 10638,
+        "CompanyName": "LINO-Delicateses",
+        "ShippedDate": "/Date(873072000000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='Maison%20Dewey',OrderID=10760)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "2917.0000",
+        "OrderID": 10760,
+        "CompanyName": "Maison Dewey",
+        "ShippedDate": "/Date(881712000000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='M%C3%A8re%20Paillarde',OrderID=10424)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "9194.5600",
+        "OrderID": 10424,
+        "CompanyName": "Mère Paillarde",
+        "ShippedDate": "/Date(854323200000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='M%C3%A8re%20Paillarde',OrderID=10605)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "4109.7000",
+        "OrderID": 10605,
+        "CompanyName": "Mère Paillarde",
+        "ShippedDate": "/Date(870134400000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='M%C3%A8re%20Paillarde',OrderID=10618)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "2697.5000",
+        "OrderID": 10618,
+        "CompanyName": "Mère Paillarde",
+        "ShippedDate": "/Date(870998400000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='Piccolo%20und%20mehr',OrderID=10530)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "4180.0000",
+        "OrderID": 10530,
+        "CompanyName": "Piccolo und mehr",
+        "ShippedDate": "/Date(863395200000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='Queen%20Cozinha',OrderID=10637)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "2761.9400",
+        "OrderID": 10637,
+        "CompanyName": "Queen Cozinha",
+        "ShippedDate": "/Date(872553600000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='QUICK-Stop',OrderID=10451)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "3849.6600",
+        "OrderID": 10451,
+        "CompanyName": "QUICK-Stop",
+        "ShippedDate": "/Date(858124800000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='QUICK-Stop',OrderID=10515)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "9921.3000",
+        "OrderID": 10515,
+        "CompanyName": "QUICK-Stop",
+        "ShippedDate": "/Date(864345600000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='QUICK-Stop',OrderID=10540)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "10191.7000",
+        "OrderID": 10540,
+        "CompanyName": "QUICK-Stop",
+        "ShippedDate": "/Date(866160000000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='QUICK-Stop',OrderID=10549)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "3554.2800",
+        "OrderID": 10549,
+        "CompanyName": "QUICK-Stop",
+        "ShippedDate": "/Date(864950400000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='QUICK-Stop',OrderID=10588)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "3120.0000",
+        "OrderID": 10588,
+        "CompanyName": "QUICK-Stop",
+        "ShippedDate": "/Date(868492800000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='QUICK-Stop',OrderID=10658)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "4464.6000",
+        "OrderID": 10658,
+        "CompanyName": "QUICK-Stop",
+        "ShippedDate": "/Date(873676800000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='QUICK-Stop',OrderID=10691)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "10164.8000",
+        "OrderID": 10691,
+        "CompanyName": "QUICK-Stop",
+        "ShippedDate": "/Date(877478400000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='QUICK-Stop',OrderID=10694)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "4825.0000",
+        "OrderID": 10694,
+        "CompanyName": "QUICK-Stop",
+        "ShippedDate": "/Date(876355200000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='QUICK-Stop',OrderID=10745)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "4529.8000",
+        "OrderID": 10745,
+        "CompanyName": "QUICK-Stop",
+        "ShippedDate": "/Date(880588800000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='Rattlesnake%20Canyon%20Grocery',OrderID=10401)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "3868.6000",
+        "OrderID": 10401,
+        "CompanyName": "Rattlesnake Canyon Grocery",
+        "ShippedDate": "/Date(852854400000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='Rattlesnake%20Canyon%20Grocery',OrderID=10479)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "10495.6000",
+        "OrderID": 10479,
+        "CompanyName": "Rattlesnake Canyon Grocery",
+        "ShippedDate": "/Date(858902400000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='Richter%20Supermarkt',OrderID=10666)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "4666.9400",
+        "OrderID": 10666,
+        "CompanyName": "Richter Supermarkt",
+        "ShippedDate": "/Date(874886400000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='Save-a-lot%20Markets',OrderID=10393)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "2556.9500",
+        "OrderID": 10393,
+        "CompanyName": "Save-a-lot Markets",
+        "ShippedDate": "/Date(852249600000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='Save-a-lot%20Markets',OrderID=10398)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "2505.6000",
+        "OrderID": 10398,
+        "CompanyName": "Save-a-lot Markets",
+        "ShippedDate": "/Date(852768000000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='Save-a-lot%20Markets',OrderID=10440)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "4924.1400",
+        "OrderID": 10440,
+        "CompanyName": "Save-a-lot Markets",
+        "ShippedDate": "/Date(857088000000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='Save-a-lot%20Markets',OrderID=10510)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "4707.5400",
+        "OrderID": 10510,
+        "CompanyName": "Save-a-lot Markets",
+        "ShippedDate": "/Date(862185600000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='Save-a-lot%20Markets',OrderID=10555)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "2944.4000",
+        "OrderID": 10555,
+        "CompanyName": "Save-a-lot Markets",
+        "ShippedDate": "/Date(865382400000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='Save-a-lot%20Markets',OrderID=10607)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "6475.4000",
+        "OrderID": 10607,
+        "CompanyName": "Save-a-lot Markets",
+        "ShippedDate": "/Date(869788800000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='Save-a-lot%20Markets',OrderID=10612)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "6375.0000",
+        "OrderID": 10612,
+        "CompanyName": "Save-a-lot Markets",
+        "ShippedDate": "/Date(870393600000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='Save-a-lot%20Markets',OrderID=10657)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "4371.6000",
+        "OrderID": 10657,
+        "CompanyName": "Save-a-lot Markets",
+        "ShippedDate": "/Date(874281600000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='Save-a-lot%20Markets',OrderID=10678)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "5256.5000",
+        "OrderID": 10678,
+        "CompanyName": "Save-a-lot Markets",
+        "ShippedDate": "/Date(876960000000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='Save-a-lot%20Markets',OrderID=10711)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "4451.7000",
+        "OrderID": 10711,
+        "CompanyName": "Save-a-lot Markets",
+        "ShippedDate": "/Date(878083200000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='Save-a-lot%20Markets',OrderID=10713)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "2827.9000",
+        "OrderID": 10713,
+        "CompanyName": "Save-a-lot Markets",
+        "ShippedDate": "/Date(877651200000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='Save-a-lot%20Markets',OrderID=10757)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "3082.0000",
+        "OrderID": 10757,
+        "CompanyName": "Save-a-lot Markets",
+        "ShippedDate": "/Date(882144000000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='Simons%20bistro',OrderID=10417)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "11188.4000",
+        "OrderID": 10417,
+        "CompanyName": "Simons bistro",
+        "ShippedDate": "/Date(854409600000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='Supr%C3%AAmes%20d%C3%A9lices',OrderID=10458)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "3891.0000",
+        "OrderID": 10458,
+        "CompanyName": "Suprêmes délices",
+        "ShippedDate": "/Date(857433600000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='Tortuga%20Restaurante',OrderID=10518)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "4150.0500",
+        "OrderID": 10518,
+        "CompanyName": "Tortuga Restaurante",
+        "ShippedDate": "/Date(862790400000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='Vaffeljernet',OrderID=10465)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "2518.0000",
+        "OrderID": 10465,
+        "CompanyName": "Vaffeljernet",
+        "ShippedDate": "/Date(858297600000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='Vaffeljernet',OrderID=10688)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "3160.6000",
+        "OrderID": 10688,
+        "CompanyName": "Vaffeljernet",
+        "ShippedDate": "/Date(876182400000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='Victuailles%20en%20stock',OrderID=10546)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "2812.0000",
+        "OrderID": 10546,
+        "CompanyName": "Victuailles en stock",
+        "ShippedDate": "/Date(864691200000)/"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Sales_Totals_by_Amounts(CompanyName='Wartian%20Herkku',OrderID=10455)",
+          "type": "NorthwindModel.Sales_Totals_by_Amount"
+        },
+        "SaleAmount": "2684.0000",
+        "OrderID": 10455,
+        "CompanyName": "Wartian Herkku",
+        "ShippedDate": "/Date(857347200000)/"
+      }
+    ]
+  }
+}

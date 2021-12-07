@@ -1,0 +1,70 @@
+{
+  "d": {
+    "results": [
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Category_Sales_for_1997('Beverages')",
+          "type": "NorthwindModel.Category_Sales_for_1997"
+        },
+        "CategoryName": "Beverages",
+        "CategorySales": "102074.3100"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Category_Sales_for_1997('Condiments')",
+          "type": "NorthwindModel.Category_Sales_for_1997"
+        },
+        "CategoryName": "Condiments",
+        "CategorySales": "55277.6000"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Category_Sales_for_1997('Confections')",
+          "type": "NorthwindModel.Category_Sales_for_1997"
+        },
+        "CategoryName": "Confections",
+        "CategorySales": "80894.1400"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Category_Sales_for_1997('Dairy%20Products')",
+          "type": "NorthwindModel.Category_Sales_for_1997"
+        },
+        "CategoryName": "Dairy Products",
+        "CategorySales": "114749.7800"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Category_Sales_for_1997('Grains/Cereals')",
+          "type": "NorthwindModel.Category_Sales_for_1997"
+        },
+        "CategoryName": "Grains/Cereals",
+        "CategorySales": "55948.8200"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Category_Sales_for_1997('Meat/Poultry')",
+          "type": "NorthwindModel.Category_Sales_for_1997"
+        },
+        "CategoryName": "Meat/Poultry",
+        "CategorySales": "81338.0600"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Category_Sales_for_1997('Produce')",
+          "type": "NorthwindModel.Category_Sales_for_1997"
+        },
+        "CategoryName": "Produce",
+        "CategorySales": "53019.9800"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Category_Sales_for_1997('Seafood')",
+          "type": "NorthwindModel.Category_Sales_for_1997"
+        },
+        "CategoryName": "Seafood",
+        "CategorySales": "65544.1800"
+      }
+    ]
+  }
+}

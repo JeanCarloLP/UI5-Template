@@ -1,0 +1,206 @@
+{
+  "d": {
+    "results": [
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products_Above_Average_Prices('Alice%20Mutton')",
+          "type": "NorthwindModel.Products_Above_Average_Price"
+        },
+        "ProductName": "Alice Mutton",
+        "UnitPrice": "39.0000"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products_Above_Average_Prices('Camembert%20Pierrot')",
+          "type": "NorthwindModel.Products_Above_Average_Price"
+        },
+        "ProductName": "Camembert Pierrot",
+        "UnitPrice": "34.0000"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products_Above_Average_Prices('Carnarvon%20Tigers')",
+          "type": "NorthwindModel.Products_Above_Average_Price"
+        },
+        "ProductName": "Carnarvon Tigers",
+        "UnitPrice": "62.5000"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products_Above_Average_Prices('C%C3%B4te%20de%20Blaye')",
+          "type": "NorthwindModel.Products_Above_Average_Price"
+        },
+        "ProductName": "Côte de Blaye",
+        "UnitPrice": "263.5000"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products_Above_Average_Prices('Gnocchi%20di%20nonna%20Alice')",
+          "type": "NorthwindModel.Products_Above_Average_Price"
+        },
+        "ProductName": "Gnocchi di nonna Alice",
+        "UnitPrice": "38.0000"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products_Above_Average_Prices('Gudbrandsdalsost')",
+          "type": "NorthwindModel.Products_Above_Average_Price"
+        },
+        "ProductName": "Gudbrandsdalsost",
+        "UnitPrice": "36.0000"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products_Above_Average_Prices('Gumb%C3%A4r%20Gummib%C3%A4rchen')",
+          "type": "NorthwindModel.Products_Above_Average_Price"
+        },
+        "ProductName": "Gumbär Gummibärchen",
+        "UnitPrice": "31.2300"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products_Above_Average_Prices('Ikura')",
+          "type": "NorthwindModel.Products_Above_Average_Price"
+        },
+        "ProductName": "Ikura",
+        "UnitPrice": "31.0000"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products_Above_Average_Prices('Ipoh%20Coffee')",
+          "type": "NorthwindModel.Products_Above_Average_Price"
+        },
+        "ProductName": "Ipoh Coffee",
+        "UnitPrice": "46.0000"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products_Above_Average_Prices('Manjimup%20Dried%20Apples')",
+          "type": "NorthwindModel.Products_Above_Average_Price"
+        },
+        "ProductName": "Manjimup Dried Apples",
+        "UnitPrice": "53.0000"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products_Above_Average_Prices('Mascarpone%20Fabioli')",
+          "type": "NorthwindModel.Products_Above_Average_Price"
+        },
+        "ProductName": "Mascarpone Fabioli",
+        "UnitPrice": "32.0000"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products_Above_Average_Prices('Mishi%20Kobe%20Niku')",
+          "type": "NorthwindModel.Products_Above_Average_Price"
+        },
+        "ProductName": "Mishi Kobe Niku",
+        "UnitPrice": "97.0000"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products_Above_Average_Prices('Mozzarella%20di%20Giovanni')",
+          "type": "NorthwindModel.Products_Above_Average_Price"
+        },
+        "ProductName": "Mozzarella di Giovanni",
+        "UnitPrice": "34.8000"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products_Above_Average_Prices('Northwoods%20Cranberry%20Sauce')",
+          "type": "NorthwindModel.Products_Above_Average_Price"
+        },
+        "ProductName": "Northwoods Cranberry Sauce",
+        "UnitPrice": "40.0000"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products_Above_Average_Prices('Perth%20Pasties')",
+          "type": "NorthwindModel.Products_Above_Average_Price"
+        },
+        "ProductName": "Perth Pasties",
+        "UnitPrice": "32.8000"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products_Above_Average_Prices('Queso%20Manchego%20La%20Pastora')",
+          "type": "NorthwindModel.Products_Above_Average_Price"
+        },
+        "ProductName": "Queso Manchego La Pastora",
+        "UnitPrice": "38.0000"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products_Above_Average_Prices('Raclette%20Courdavault')",
+          "type": "NorthwindModel.Products_Above_Average_Price"
+        },
+        "ProductName": "Raclette Courdavault",
+        "UnitPrice": "55.0000"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products_Above_Average_Prices('R%C3%B6ssle%20Sauerkraut')",
+          "type": "NorthwindModel.Products_Above_Average_Price"
+        },
+        "ProductName": "Rössle Sauerkraut",
+        "UnitPrice": "45.6000"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products_Above_Average_Prices('Schoggi%20Schokolade')",
+          "type": "NorthwindModel.Products_Above_Average_Price"
+        },
+        "ProductName": "Schoggi Schokolade",
+        "UnitPrice": "43.9000"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products_Above_Average_Prices('Sir%20Rodney''s%20Marmalade')",
+          "type": "NorthwindModel.Products_Above_Average_Price"
+        },
+        "ProductName": "Sir Rodney's Marmalade",
+        "UnitPrice": "81.0000"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products_Above_Average_Prices('Tarte%20au%20sucre')",
+          "type": "NorthwindModel.Products_Above_Average_Price"
+        },
+        "ProductName": "Tarte au sucre",
+        "UnitPrice": "49.3000"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products_Above_Average_Prices('Th%C3%BCringer%20Rostbratwurst')",
+          "type": "NorthwindModel.Products_Above_Average_Price"
+        },
+        "ProductName": "Thüringer Rostbratwurst",
+        "UnitPrice": "123.7900"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products_Above_Average_Prices('Uncle%20Bob''s%20Organic%20Dried%20Pears')",
+          "type": "NorthwindModel.Products_Above_Average_Price"
+        },
+        "ProductName": "Uncle Bob's Organic Dried Pears",
+        "UnitPrice": "30.0000"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products_Above_Average_Prices('Vegie-spread')",
+          "type": "NorthwindModel.Products_Above_Average_Price"
+        },
+        "ProductName": "Vegie-spread",
+        "UnitPrice": "43.9000"
+      },
+      {
+        "__metadata": {
+          "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/Products_Above_Average_Prices('Wimmers%20gute%20Semmelkn%C3%B6del')",
+          "type": "NorthwindModel.Products_Above_Average_Price"
+        },
+        "ProductName": "Wimmers gute Semmelknödel",
+        "UnitPrice": "33.2500"
+      }
+    ]
+  }
+}

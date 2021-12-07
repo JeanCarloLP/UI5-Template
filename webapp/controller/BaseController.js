@@ -55,14 +55,14 @@ sap.ui.define([
 
     // Method to get the resource bundle
     BaseController.prototype.getResourceBundle = function() {
-        if( this._bundle )
-            return this._bundle;
+        if( this.resourceBundle )
+            return this.resourceBundle;
         
-        this._bundle = this.getOwnerComponent()
+        this.resourceBundle = this.getOwnerComponent()
             .getModel('i18n')
             .getResourceBundle();
         
-        return this._bundle
+        return this.resourceBundle
     }
 
     // Event Handler to navigate back

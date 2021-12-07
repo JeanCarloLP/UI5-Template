@@ -157,7 +157,7 @@ ui5 serve
 <br/>
 
 
-### *NPM ui5-task-transpile*
+# NPM ui5-task-transpile - ES6
 Throughout the development that you must implement, you will possibly use npm on numerous occasions, but when it comes to make a more stable configuration for your UI5 project, the following installation is recommended to be testable in any browser using npm and babel ( https://www.npmjs.com/package/ui5-task-transpile )
 
 After following the steps described on the npm link, we create a simple example for ES6 code to see the differences after build ( see filles: index.js )
