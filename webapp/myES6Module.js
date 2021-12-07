@@ -15,7 +15,7 @@ sap.ui.define([
 
 	const hobbies = ['padel', 'warhammer40k', 'comics'];
 	let modifiedInfo = {...myInfo, lastName: 'León', hobbies};
-	console.table( modifiedInfo );
+	// console.table( modifiedInfo );
 
 	const sayHi = ( name ) => {
         if( myInfo.firstName )
