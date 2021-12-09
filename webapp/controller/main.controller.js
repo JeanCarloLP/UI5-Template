@@ -1,8 +1,9 @@
 
 
 sap.ui.define([
-    'sap/ui/demo/template/controller/BaseController'
-], function( BaseController ) {
+    'sap/ui/demo/template/controller/BaseController',
+    'sap/m/MessageToast'
+], function( BaseController, MessageToast ) {
     'use strict';
 
     const MainController = BaseController.extend(
@@ -10,6 +11,7 @@ sap.ui.define([
             constructor: function() {}
         }
     );
+    
 
     MainController.prototype.onInit = function() {
         // Here the OData doesn't have the data yet
@@ -39,6 +41,16 @@ sap.ui.define([
                 // debugger; // Check oData on the console
             }
         })
+
+
+        // Get the EventBus - first method
+        let oEventBus = this.getOwnerComponent().getEventBus();
+        // put the onPress method into the EventBus
+        oEventBus.subscribe( 'onPressButton', this.onPressButton, this );
+        
+        // Get the EventBus - second method
+        let oEventBus2 = sap.ui.getCore().getEventBus();
+        oEventBus2.subscribe( "Detail", 'onPressButton2', this.onPressButton2, this );
     };
 
     MainController.prototype.onAfterRendering = function() {
@@ -55,6 +67,26 @@ sap.ui.define([
         // console.info( `This title was setted on the i18n and we access through the Base Controller - title: ${ title } `);
         
     };
+
+    MainController.prototype.onPressButton = () => {
+        MessageToast.show( 'Message from Main View: main button successfully clicked' );
+    };
+
+    MainController.prototype.onPressButton2 = ( sChanel, sEvent, oData ) => {
+        let msg = '';
+
+        if( sEvent === 'onPressButton2' )
+            msg = 'Message from '+ sChanel + ' view: ' + oData.text;
+        else
+            msg = 'Message from Main View: main button 2 successfully clicked';
+
+        MessageToast.show( msg );
+    };
+
+    MainController.prototype.onPressItem = function( oEvent ) {
+        let sProductID = oEvent.getParameters().listItem.getDescription();
+        this.navTo( 'detail', { ProductID: window.encodeURIComponent( sProductID ) } );
+    }
 
     return MainController;
     

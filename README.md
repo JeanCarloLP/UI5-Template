@@ -9,10 +9,16 @@
 <br/>
 <br/>
 
-# Features Implemented
-- BaseController
-- flpSandboxMockServer
-- dataSources
+# Feature: feature-EventBus  
+( https://inui.io/sapui5-eventbus/ ) ( https://sapui5.hana.ondemand.com/sdk/#/api/sap.ui.core.EventBus )  
+The SAPUI5 EventBus lets you share methods across controllers.  
+The SAPUI5 EventBus not only avoids redundant code but also allows you to pass data between controllers.  
+- You avoid duplicate code in your application
+- You can communicate between controllers  
+
+First, you don’t have the same code in multiple controllers. Instead of copying and pasting the code across the board, you have the code in one controller and share it via the SAPUI5 EventBus.  
+
+Also check that we already set the Navigation on this feature (necesary for the eventBus example!) so keep an eye on the views and controllers!.  
 
 <br/>
 <br/>

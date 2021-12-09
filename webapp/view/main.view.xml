@@ -3,10 +3,19 @@
     displayBlock="true"
     xmlns="sap.m"
     xmlns:mvc="sap.ui.core.mvc">
-    <Page id="page" title="{i18n>title}">
+    <Page id="pageMain" title="{i18n>title}">
         <content>
-            <List items="{/Products}">
-                <StandardListItem type="Active" title="{ProductName}"/>
+            <Button press="onPressButton" text="{i18n>buttonEventBusMain1}" />
+            <Button press="onPressButton2" text="{i18n>buttonEventBusMain2}" />
+            <List id="listItems" items="{/Products}" growing="true" growingScrollToLoad="true" growingThreshold="5" itemPress="onPressItem">
+                <StandardListItem title="{ProductName}" type="Navigation" description="{ProductID}"/>
+                <!-- <items>
+                    <ObjectListItem type="Navigation">
+                        <firstStatus>
+                            <ObjectStatus text="{ProductName}"/>
+                        </firstStatus>
+                    </ObjectListItem>
+                </items> -->
             </List>
         </content>
     </Page>
