@@ -1,6 +1,5 @@
 
 
-
 sap.ui.define([
     'sap/ui/demo/template/controller/BaseController',
     'sap/ui/model/json/JSONModel'
@@ -16,7 +15,10 @@ sap.ui.define([
     DetailController.prototype.onInit = function() {
         BaseController.prototype.onInit.apply( this, arguments );
         this.getRouter().getRoute('detail').attachPatternMatched( this.onObjectMatched, this );
-        // Watch out! in this case  if we use the this.getRoute() method we obtain 
+        // Watch out!
+        // attachPatternMatched/attachRoutePatternMatched fires for a matched subroute.
+        // attachPatternMatched fires for the route's subroutes.
+        // attachRoutePatternMatched fires for any matched subroute. i.e. attachPatternMatched/attachRoutePatternMatched fires for no parent routes.
         
         let oViewModel = new JSONModel( {} );
         this.setModel( oViewModel, 'detailModel' );
