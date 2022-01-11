@@ -2,8 +2,9 @@
 
 sap.ui.define([
     'sap/ui/demo/template/controller/BaseController',
-    'sap/m/MessageToast'
-], function( BaseController, MessageToast ) {
+    'sap/m/MessageToast',
+    'sap/ui/demo/template/util/libs/underscore'
+], function( BaseController, MessageToast, underscore ) {
     'use strict';
 
     const MainController = BaseController.extend(
@@ -52,6 +53,14 @@ sap.ui.define([
         // Get the EventBus - second method sendig data through the controllers
         let oEventBus2 = sap.ui.getCore().getEventBus();
         oEventBus2.subscribe( "Detail", 'onPressButton2', this.onPressButton2, this );
+
+        // Underscore Library Test
+        let aTest = ['A', 'B', 'C', 'D', 'E', 'F'];
+        console.info({aTest});
+        aTest = _.shuffle(aTest);
+        console.info({aTest});
+        // Now you can checkl the results on the console, we can acces to the _. methods
+
     };
 
     MainController.prototype.onAfterRendering = function() {

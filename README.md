@@ -9,16 +9,14 @@
 <br/>
 <br/>
 
-# Feature: feature-EventBus  
-( https://inui.io/sapui5-eventbus/ ) ( https://sapui5.hana.ondemand.com/sdk/#/api/sap.ui.core.EventBus )  
-The SAPUI5 EventBus lets you share methods across controllers.  
-The SAPUI5 EventBus not only avoids redundant code but also allows you to pass data between controllers.  
-- You avoid duplicate code in your application
-- You can communicate between controllers  
+# Feature: feature-Libraries  
+On this feature we will set the use of external Libraries or Modules. Take in count for UI5 we must differentiate between UI5 libraries and non-UI5 resources like third party libraries, check this link to have more info in case of need ( https://sap.github.io/ui5-tooling/pages/Builder/#module adn https://blogs.sap.com/2017/04/30/how-to-include-third-party-libraries-modules-in-sapui5/ ).  
+For the moment we will set the use of _Underscore.JS ( https://underscorejs.org/ ) a very common library that implement some methods that JavaScript doesn't have yet or that ES6 start to implement little by little.
+The difference between the manifest and this approach:  
+- using the manifest will load the library at the start of the UI5 app
+- this approach will load the library only when it's defined, but only once. If it's already loaded, it will not load again.
 
-First, you don’t have the same code in multiple controllers. Instead of copying and pasting the code across the board, you have the code in one controller and share it via the SAPUI5 EventBus.  
-
-Also check that we already set the Navigation on this feature (necesary for the eventBus example!) so keep an eye on the views and controllers!.  
+### Avoid to include the libraries on the UI5 index or some issues will appear on the Fiori Launchpad ( the Fiori Launchpad will start the app from the Component and not from the index.html ).
 
 <br/>
 <br/>
