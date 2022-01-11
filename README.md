@@ -16,7 +16,9 @@ The difference between the manifest and this approach:
 - using the manifest will load the library at the start of the UI5 app
 - this approach will load the library only when it's defined, but only once. If it's already loaded, it will not load again.
 
-### Avoid to include the libraries on the UI5 index or some issues will appear on the Fiori Launchpad ( the Fiori Launchpad will start the app from the Component and not from the index.html ).
+### Avoid to include the libraries on the UI5 index or some issues will appear on the Fiori Launchpad ( the Fiori Launchpad will start the app from the Component and not from the index.html ).  
+
+So, we will be able to see how to use an external library as "Underscore" directly in our util folder and a second case to use a custom control and use the library into SAPUI5 applications.
 
 <br/>
 <br/>

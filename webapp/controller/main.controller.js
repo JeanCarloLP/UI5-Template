@@ -3,8 +3,9 @@
 sap.ui.define([
     'sap/ui/demo/template/controller/BaseController',
     'sap/m/MessageToast',
-    'sap/ui/demo/template/util/libs/underscore'
-], function( BaseController, MessageToast, underscore ) {
+    'sap/ui/demo/template/util/libs/underscore',
+    'sap/ui/library/reuse/util/Constants'
+], function( BaseController, MessageToast, underscore, Constants ) {
     'use strict';
 
     const MainController = BaseController.extend(
@@ -60,6 +61,10 @@ sap.ui.define([
         aTest = _.shuffle(aTest);
         console.info({aTest});
         // Now you can checkl the results on the console, we can acces to the _. methods
+
+        // Third Party Library Test
+        let oConstants = Constants;
+        debugger;
 
     };
 

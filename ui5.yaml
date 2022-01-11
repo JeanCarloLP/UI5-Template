@@ -43,11 +43,11 @@ server:
     #   afterMiddleware: compression
     #   configuration:
     #     roothPath: ${env.SAPUI5_SDK_RESOURCES}
-    # - name: ui5-middleware-servestatic
-    #   mountPath: /test-resources
-    #   afterMiddleware: compression
-    #   configuration:
-    #     roothPath: ${env.SAPUI5_SDK_TEST_RESOURCES}
+    - name: ui5-middleware-servestatic
+      afterMiddleware: compression
+      mountPath: /ui5-library-reuse
+      configuration:
+        roothPath: "/node_modules/ui5-library-reuse/src/test/lib"
     # Remember to set the dependencies on the package.json
     - name: ui5-middleware-livereload
       afterMiddleware: compression

@@ -4,8 +4,10 @@
   "devDependencies": {
     "eslint": "^8.3.0",
     "ui5-middleware-livereload": "^0.5.8",
+    "ui5-middleware-servestatic": "^0.3.3",
     "ui5-middleware-simpleproxy": "*",
-    "ui5-task-transpile": "^0.3.4"
+    "ui5-task-transpile": "^0.3.4",
+    "ui5-library-reuse": "https://github.com/JeanCarloLP/LibraryTemplate"
   },
   "keywords": [
     "UI5"
@@ -30,6 +32,7 @@
     "dependencies": [
       "ui5-middleware-livereload",
       "ui5-middleware-simpleproxy",
+      "ui5-middleware-servestatic",
       "ui5-task-transpile"
     ]
   },
