@@ -10,7 +10,6 @@
 <br/>
 
 # Feature: feature-Libraries  
-Test  
 On this feature we will set the use of external Libraries or Modules. Take in count for UI5 we must differentiate between UI5 libraries and non-UI5 resources like third party libraries, check this link to have more info in case of need ( https://sap.github.io/ui5-tooling/pages/Builder/#module adn https://blogs.sap.com/2017/04/30/how-to-include-third-party-libraries-modules-in-sapui5/ ).  
 For the moment we will set the use of _Underscore.JS ( https://underscorejs.org/ ) a very common library that implement some methods that JavaScript doesn't have yet or that ES6 start to implement little by little.
 The difference between the manifest and this approach:  
