@@ -38,10 +38,7 @@
         "libs": {
           "sap.m": {},
           "sap.ui.core": {},
-          "sap.ui.layout": {},
-          "sap.ui.library.reuse": {
-            "lazy":  true
-          }
+          "sap.ui.layout": {}
         }
       },
       "models": {

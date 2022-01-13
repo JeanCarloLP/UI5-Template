@@ -10,15 +10,28 @@
 <br/>
 
 # Feature: feature-Libraries  
-On this feature we will set the use of external Libraries or Modules. Take in count for UI5 we must differentiate between UI5 libraries and non-UI5 resources like third party libraries, check this link to have more info in case of need ( https://sap.github.io/ui5-tooling/pages/Builder/#module adn https://blogs.sap.com/2017/04/30/how-to-include-third-party-libraries-modules-in-sapui5/ ).  
-For the moment we will set the use of _Underscore.JS ( https://underscorejs.org/ ) a very common library that implement some methods that JavaScript doesn't have yet or that ES6 start to implement little by little.
-The difference between the manifest and this approach:  
-- using the manifest will load the library at the start of the UI5 app
+On this feature we will set the use of external Libraries or Modules. Take in count for UI5 we must differentiate between SAPUI5 libraries ( e.g: sap.m ) and non-SAPUI5 libraries like third party libraries, check this link to have more info in case of need ( https://sap.github.io/ui5-tooling/pages/Builder/#module adn https://blogs.sap.com/2017/04/30/how-to-include-third-party-libraries-modules-in-sapui5/ ).  
+As first example we will set the use of _Underscore.JS ( https://underscorejs.org/ ) a very common library that implement some methods that JavaScript doesn't have yet or that ES6 start to implement little by little.
+The difference between the use of the manifest file and this approach ( load directly the min file ):  
+- using the manifest will load the library at the start of the UI5 app.
 - this approach will load the library only when it's defined, but only once. If it's already loaded, it will not load again.
+- use this approach for specific cases where you will using a library that is not very heavy.
 
 ### Avoid to include the libraries on the UI5 index or some issues will appear on the Fiori Launchpad ( the Fiori Launchpad will start the app from the Component and not from the index.html ).  
 
 So, we will be able to see how to use an external library as "Underscore" directly in our util folder and a second case to use a custom control and use the library into SAPUI5 applications.
+
+As second case we will set the modifications to reuse a "module" ( https://blogs.sap.com/2021/11/15/using-npm-packages-in-ui5-without-shims/ ).  
+Advantages of this approach:
+- don't need to add innecesary files to your project.
+- just import/export the library you need.
+- reuse the "module" in many different apps.
+
+Tip: affected files are package.json , ui5.yaml and the controllers where you will need this module ( in our example will be the main.controller )
+
+### Important to remember: in case you will use GitHub or GitLab to access an specific resources, I recommend to read the following links to proceed with the authentication ( "name1" : "git+ssh://github.com/user/project.git#commit-ish" ) :  
+- https://jdblischak.github.io/2014-09-18-chicago/novice/git/05-sshkeys.html
+- https://stackoverflow.com/questions/23210437/npm-install-private-github-repositories-by-dependency-in-package-json
 
 <br/>
 <br/>

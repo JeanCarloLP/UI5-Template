@@ -4,7 +4,7 @@ sap.ui.define([
     'sap/ui/demo/template/controller/BaseController',
     'sap/m/MessageToast',
     'sap/ui/demo/template/util/libs/underscore',
-    'sap/ui/library/reuse/util/Constants'
+    'library/reuse/util/Constants'
 ], function( BaseController, MessageToast, underscore, Constants ) {
     'use strict';
 
@@ -64,7 +64,6 @@ sap.ui.define([
 
         // Third Party Library Test
         let oConstants = Constants;
-        debugger;
 
     };
 

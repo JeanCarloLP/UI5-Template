@@ -1,14 +1,6 @@
 {
   "author": "TheChan",
   "description": "Before we start with our development or download and installation of the project, remember this template can help as a point to start!.",
-  "devDependencies": {
-    "eslint": "^8.3.0",
-    "ui5-middleware-livereload": "^0.5.8",
-    "ui5-middleware-servestatic": "^0.3.3",
-    "ui5-middleware-simpleproxy": "*",
-    "ui5-task-transpile": "^0.3.4",
-    "ui5-library-reuse": "https://github.com/JeanCarloLP/LibraryTemplate"
-  },
   "keywords": [
     "UI5"
   ],
@@ -28,12 +20,21 @@
     "start": "ui5 serve --port 8080 --open /index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "devDependencies": {
+    "@ui5/cli": "^2.6.6",
+    "eslint": "^6.7.2",
+    "ui5-middleware-servestatic": "*",
+    "ui5-middleware-simpleproxy": "*",
+    "ui5-tooling-modules": "^0.1.0",
+    "ui5-middleware-livereload": "^0.5.8",
+    "ui5-library-reuse": "git+ssh://git@github.com:JeanCarloLP/LibraryTemplate.git"
+  },
   "ui5": {
     "dependencies": [
-      "ui5-middleware-livereload",
-      "ui5-middleware-simpleproxy",
       "ui5-middleware-servestatic",
-      "ui5-task-transpile"
+      "ui5-middleware-simpleproxy",
+      "ui5-tooling-modules",
+      "ui5-middleware-livereload"
     ]
   },
   "version": "1.0.0"

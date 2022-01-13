@@ -4,6 +4,7 @@ metadata:
 type: application
 builder:
   customTasks:
+  # UI5 task for transpiling ES6+ sources
   - name: ui5-task-transpile
     afterTask: replaceVersion
     configuration:
@@ -14,6 +15,9 @@ builder:
       - "lib/"
       - "another/dir/in/webapp"
       - "yet/another/dir"
+  # UI5 Tooling Extensions: ui5-tooling-modules
+  - name: ui5-tooling-modules-task
+    afterTask: replaceVersion
   resources:
     excludes:
       - "/test/**"
@@ -38,6 +42,13 @@ server:
       configuration:
         debug: true
         baseUri: https://services.odata.org/V2/Northwind/Northwind.svc/
+    - name: ui5-tooling-modules-middleware
+      afterMiddleware: compression
+    - name: ui5-middleware-livereload
+      afterMiddleware: compression
+      configuration:
+        extraExts: "xml,json,properties"
+        path: "webapp"
     # - name: ui5-middleware-simpleproxy
     #   mountPath: /resources
     #   afterMiddleware: compression
@@ -45,12 +56,6 @@ server:
     #     roothPath: ${env.SAPUI5_SDK_RESOURCES}
     - name: ui5-middleware-servestatic
       afterMiddleware: compression
-      mountPath: /ui5-library-reuse
+      mountPath: /resources/library/reuse
       configuration:
-        roothPath: "/node_modules/ui5-library-reuse/src/test/lib"
-    # Remember to set the dependencies on the package.json
-    - name: ui5-middleware-livereload
-      afterMiddleware: compression
-      configuration:
-        extraExts: "xml,json,properties"
-        path: "webapp"
+        rootPath: "node_modules/ui5-library-reuse/src/ui5/library/template"
